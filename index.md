@@ -4,7 +4,7 @@ layout: page
 
 # About Me
 
-<img src="/images/Yifei_Shen.JPG" class="floatpic" width="360" height="480">
+<img src="/images/Yifei_Shen.JPG" class="floatpic" width="273" height="272.9">
 
 Here is **Yifei Shen (Barry, 沈逸飞)**.
 
