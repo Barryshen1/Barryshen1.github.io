@@ -4,7 +4,7 @@ layout: page
 
 # About Me
 
-<img src="/images/Yifei_Shen.JPG" class="floatpic" width="273" height="272.9">
+<img src="https://Barryshen1.github.io/Yifei_Shen.jpg" class="floatpic" width="273" height="272.9">
 
 Here is **Yifei Shen (Barry, 沈逸飞)**.
 
@@ -17,7 +17,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 - **Sep 2024 - Future:** Cambridge University (Incoming EE MPhil, supervised by [Prof. Ozgur B. Akan](https://ioe.eng.cam.ac.uk/directory/akan))
 - **Sep 2020 - June 2024:** Maynooth University (BSc, EECS)
 - **Sep 2020 - June 2024:** Fuzhou University (BEng, EECS)
-- **June 2022 - Nov 2022:** Cambridge University (Internship)
+- **Jan 2022 - March 2022:** Massachusetts Institute of Technology (Winter School)
 
 ---
 
