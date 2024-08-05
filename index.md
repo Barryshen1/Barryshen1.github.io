@@ -4,7 +4,7 @@ layout: page
 
 # About Me
 
-<img src="D:\github\Barryshen1.github.io" class="floatpic" width="360" height="480">
+<img src="https://Barryshen1.github.io/Yifei_Shen.jpg" class="floatpic" width="360" height="480">
 
 Here is **Yifei Shen (Barry, 沈逸飞)**.
 
