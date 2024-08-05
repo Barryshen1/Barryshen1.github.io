@@ -8,7 +8,7 @@ layout: page
 
 Here is **Yifei Shen (Barry, 沈逸飞)**.
 
-I am a final-year undergrad majoring in EECS at Fuzhou University and Maynooth University (Combined Degrees). Currently, I serve as a research assistant at the IIoT-Lab, advised by [Prof. Zhezhuang Xu](https://www.researchgate.net/profile/Zhezhuang-Xu) and [Dr. Meng Yuan](https://www.researchgate.net/profile/Meng-Yuan-4). I also spent a lovely summer research program with [Prof. Pietro Liò](https://www.cl.cam.ac.uk/~pl219/) at Cambridge University. Recently, I have been selected as an **AAAI & KDD UC Scholar**.
+I am a first-year master's student at the University of Washington, Seattle, in the Department of Electrical and Computer Engineering. Prior to joining the University of Washington, I received my BEng in Digital Media Technology from Xi'an Jiaotong-Liverpool University in 2024, where I was advised by [Prof. Jieming Ma](https://scholar.xjtlu.edu.cn/en/persons/JiemingMa). During my undergraduate studies, my research focused on Artificial Intelligence, Large Language Models (LLMs), Computer Vision (CV), and Natural Language Processing (NLP).
 
 If you are interested in any aspect of me, I would love to chat and collaborate, please email me at - *yifeis02[at]uw[dot]edu*
 
