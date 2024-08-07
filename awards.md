@@ -4,16 +4,13 @@ permalink: /awards/index.html
 title: Awards
 ---
 
-> Lastest Update: 20th May 2024 &nbsp; [中文版本 (Chinese Version)](https://caihanlin.com/file/awards-zh/)
+> Lastest Update: 7th Aug 2024 &nbsp;
 
 ## Scholarships
 
-- First Prize Scholarship of MIEC ($2100, **Four times**)<br>Combined degree scholarship between FZU and Maynooth<br>
+- 得的奖项<br>介绍一下奖项<br>
 
 ## Competitions (Selected)
 
-- June 2022：**Championship** of 100-meter Freestyle Swimming Competition of Fuzhou University<br>
+- Aug 2024：参加的什么竞赛<br>
 
-## Services
-
-- April 2021：Outstanding volunteer at the 4th Digital China Summit<br>

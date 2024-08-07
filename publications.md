@@ -5,8 +5,8 @@ title: Publications
 ---
 
 
-## Early Project
+## Project
 
-- An IoT Garbage Monitoring System for Effective Garbage Management<br>*First-year course design.*<br>**Hanlin Cai**, Jiaqi Hu, Zheng Li, Wei Hong Lim, Mastaneh Mokayef, Chin Hong Wong<br>The 4th International Conference on Computer Engineering, Network and Intelligent Multimedia<br>Surabaya, Indonesia. November, 2022 (EI Compendex).<br>
+- 项目标题<br>*副标题*<br>**Yifei Shen**, 其他合作者<br>发在哪了<br>时间<br>
 
   <br>
