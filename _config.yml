@@ -7,28 +7,16 @@ url: https://Barryshen1.github.io
 # Owner/author information
 owner:
   name: Yifei Shen
-  avatar: hanlin.jpg
+  avatar:Yifei_Shen.jpg
   # bio: Two roads diverged in woods, I took the one less traveled by.
   email: yifeis02@uw.edu
-  cv: https://caihanlin.com/file/CV-HanlinCAI.pdf
+  cv: 
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter: lancecai2002
   github: Barryshen1
   linkedin: Yifei Shen
-  scholar: https://scholar.google.com/citations?user=8igSoWgAAAAJ
-  bilibili: 594030035
-  researchgate: https://www.researchgate.net/profile/Hanlin-Cai
-  zhihu: https://www.zhihu.com/people/chlire
-  # facebook: caihanlin2002
-  # instagram: lancecai2002
-  # lastfm:
-  # tumblr:
-  # For Google Authorship https://plus.google.com/authorship
-  # google_plus:
 
 # Analytics and webmaster tools stuff goes here
 # https://search.google.com/search-console/ownership
-google_verify: "SkiyuGpJOKT74vv5GmXLvYXXDkXy4v8VWPtbelYz3Hs"
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 # bing_verify: ""
@@ -42,12 +30,6 @@ links:
     url: /publications/
   - title: Awards
     url: /awards/
-  - title: Hobbies
-    url: /hobbies/
-  - title: Blogs
-    url: /blogs/
-  - title: Teams
-    url: /teams/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: China/Beijing
@@ -84,4 +66,4 @@ disqus:
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]
 
-# Latest update in 2023/12/10 by Hanlin Cai.
+# Latest update in 2024/8/7 by Yifei Shen.
