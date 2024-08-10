@@ -25,9 +25,9 @@ title: Publications
   - AI for Energy Systems
   - AI for Transportation
   - Climate, Health, and AI<br>
-  **View My Offer**: [Offer](file/CCAI%20Virtual%20Summer%20School%202024%20Offer.pdf)
-  **View the Materials**: [Materials](https://community.climatechange.ai/c/materials/)
-  **View My Certificate**: Ready on Aug 30, 2024
+  **View My Offer**: [Offer](file/CCAI%20Virtual%20Summer%20School%202024%20Offer.pdf)<br>
+  **View the Materials**: [Materials](https://community.climatechange.ai/c/materials/)<br>
+  **View My Certificate**: Ready on Aug 30, 2024<br>
 
 <br> <!-- This is the added space -->
 
@@ -42,7 +42,7 @@ title: Publications
   - Language Models and Neural Networks
   - How Large Language Models Learn New Languages
   - Large Language Models and Their Applications<br>
-  **View My Notebook**: [Github](https://github.com/Barryshen1/2024NJUNLP-)
+  **View My Notebook**: [Github](https://github.com/Barryshen1/2024NJUNLP-)<br>
 
 <br> <!-- This is the added space -->
 
@@ -56,5 +56,5 @@ title: Publications
   - Learning powerful optimization techniques and understanding their fundamental role in machine learning
   - Describing canonical machine learning problems from a statistical perspective
   - Practicing real-world forecasting and risk assessment problems using Monte Carlo simulation<br>
-  **View My Certificate**: [Machine Learning, Modeling, and Simulation Principles](https://xpro.mit.edu/certificate/3e48237c-fcae-44f7-9991-b43feddf783a/)
+  **View My Certificate**: [Machine Learning, Modeling, and Simulation Principles](https://xpro.mit.edu/certificate/3e48237c-fcae-44f7-9991-b43feddf783a/)<br>
 
