@@ -18,8 +18,9 @@ title: Publications
   - Language Models and Neural Networks
   - How Large Language Models Learn New Languages
   - Large Language Models and Their Applications<br>
-  **View My Notebook**: [github](https://github.com/Barryshen1/2024NJUNLP-)
+  **View My Notebook**: [Github](https://github.com/Barryshen1/2024NJUNLP-)
 
+<br> <!-- This is the added space -->
 
 - **Machine Learning, Modeling, and Simulation Principles**<br>
   *Winter School*<br>
@@ -31,5 +32,5 @@ title: Publications
   - Learning powerful optimization techniques and understanding their fundamental role in machine learning
   - Describing canonical machine learning problems from a statistical perspective
   - Practicing real-world forecasting and risk assessment problems using Monte Carlo simulation<br>
-  **View Certificate**: [Machine Learning, Modeling, and Simulation Principles](https://xpro.mit.edu/certificate/3e48237c-fcae-44f7-9991-b43feddf783a/)
+  **View My Certificate**: [Machine Learning, Modeling, and Simulation Principles](https://xpro.mit.edu/certificate/3e48237c-fcae-44f7-9991-b43feddf783a/)
 
