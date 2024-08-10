@@ -17,7 +17,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 - **Sep 2024 - Future:** University of Washington (Incoming MSEE)
 - **Sep 2020 - July 2024:**  Liverpool University (BEng, Digital Media Technology)
 - **Sep 2020 - July 2024:**  Xi'an Jiaotong-Liverpool University (BEng, Digital Media Technology)
-- **Jan 2022 - March 2022:** Massachusetts Institute of Technology (Winter School)
+- **Jan 2022 - March 2022:** [Massachusetts Institute of Technology (Winter School)](https://xpro.mit.edu/certificate/3e48237c-fcae-44f7-9991-b43feddf783a/)
 
 ---
 
@@ -36,7 +36,7 @@ My current research focuses on advanced machine learning algorithms and their ap
 
 - **May 2024：**
 - **April 2024：**
-- **March 2024：**
+- **March 7 2022：**Completed the [winter course](https://courses.xpro.mit.edu/learn/course/course-v1:xPRO+MLxTouchEdu1+SPOC_R6/home) offered by MIT: [Machine Learning, Modeling, and Simulation Principles](https://xpro.mit.edu/certificate/3e48237c-fcae-44f7-9991-b43feddf783a/)!
 
 
 
