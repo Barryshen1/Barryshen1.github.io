@@ -35,6 +35,8 @@ My current research focuses on advanced machine learning algorithms and their ap
 ## News and Updates
 
 - **Aug 1 2024：**Successfully graduated from Xi'an Jiaotong-Liverpool University and was awarded the Bachelor’s degree in Engineering from both Xi'an Jiaotong-Liverpool University and the University of Liverpool.
+  <br>
+  <div style="display: flex; gap: 10px;">
     <img src="images/graduation_3.jpg" style="width: 200px; height: auto;">
     <img src="images/graduation_2.jpg" style="width: 200px; height: auto;">
     <img src="images/graduation_1.jpg" style="width: 200px; height: auto;">
