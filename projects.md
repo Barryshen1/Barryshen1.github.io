@@ -8,11 +8,11 @@ title: Projects
 
 ## Projects
 
-- **NLP Summer Camp**<br>
-  *[Self Study](https://www.bilibili.com/video/BV1TE421P7jp/?spm_id_from=333.999.0.0)*<br>
+- **Blended Reality - Solid Jellyfish Project**<br>
+  **Project Leader**: Seph Li(https://solid-jellyfish.com/#/works)*<br>
   **Yifei Shen**<br>
-  Nanjing University (NJU)<br>
-  June, 2024 - Aug, 2024
+  Solid Jellyfish Ltd<br>
+  Oct 31, 2022 - Dec 25, 2022<br>
   - Natural Language Processing and Emotional Intelligence
   - Introduction to Machine Learning  
   - Machine Translation and Multilingual Large Models
