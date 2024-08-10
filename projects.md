@@ -9,7 +9,7 @@ title: Projects
 ## Projects
 
 - **Blended Reality - Solid Jellyfish Project**<br>
-  **Project Leader**: [Seph Li](https://solid-jellyfish.com)*<br>
+  **Project Leader**: [Seph Li](https://solid-jellyfish.com)<br>
   **Yifei Shen**<br>
   Solid Jellyfish Ltd<br>
   Oct 31, 2022 - Dec 25, 2022<br>
