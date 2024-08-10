@@ -34,7 +34,11 @@ My current research focuses on advanced machine learning algorithms and their ap
 
 ## News and Updates
 
-- **May 2024：**
+- **Aug 1 2024：**Successfully graduated from Xi'an Jiaotong-Liverpool University and was awarded the Bachelor’s degree in Engineering from both Xi'an Jiaotong-Liverpool University and the University of Liverpool.
+    <img src="images/graduation_3.jpg" style="width: 200px; height: auto;">
+    <img src="images/graduation_2.jpg" style="width: 200px; height: auto;">
+    <img src="images/graduation_1.jpg" style="width: 200px; height: auto;">
+  </div>
 - **April 2024：**
 - **March 7 2022：**Completed the [winter course](https://courses.xpro.mit.edu/learn/course/course-v1:xPRO+MLxTouchEdu1+SPOC_R6/home) offered by MIT: [Machine Learning, Modeling, and Simulation Principles](https://xpro.mit.edu/certificate/3e48237c-fcae-44f7-9991-b43feddf783a/)!
 
