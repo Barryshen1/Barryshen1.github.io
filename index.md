@@ -41,7 +41,7 @@ My current research focuses on advanced machine learning algorithms and their ap
     <img src="images/graduation_2.jpg" style="width: 200px; height: auto;">
     <img src="images/graduation_1.jpg" style="width: 200px; height: auto;">
   </div>
-- **April 2024：**
+- **March 31 2024：**[I've been accepted to the CCAI Virtual Summer School 2024](file/CCAI%20Virtual%20Summer%20School%202024%20Offer.pdf)!
 - **March 7 2022：**Completed the [winter course](https://courses.xpro.mit.edu/learn/course/course-v1:xPRO+MLxTouchEdu1+SPOC_R6/home) offered by MIT: [Machine Learning, Modeling, and Simulation Principles](https://xpro.mit.edu/certificate/3e48237c-fcae-44f7-9991-b43feddf783a/)!
 
 
