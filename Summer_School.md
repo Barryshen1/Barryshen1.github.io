@@ -4,7 +4,7 @@ permalink: /Summer_School/index.html
 title: Summer School
 ---
 
-> Lastest Update: 7th Aug 2024 &nbsp;
+> Lastest Update: 13th Aug 2024 &nbsp;
 
 ## Winter/Summer School courses
 
