@@ -43,7 +43,7 @@ title: Summer&Winter School
   - Describing canonical machine learning problems from a statistical perspective
   - Practicing real-world forecasting and risk assessment problems using Monte Carlo simulation<br>
   **View My Certificate**: [Machine Learning, Modeling, and Simulation Principles](https://xpro.mit.edu/certificate/3e48237c-fcae-44f7-9991-b43feddf783a/)<br>
-  **View My Transcript**: [Transcript](Summer&Winter%20School/file/Yifei%20Shen%20-%20Learning%20Analytics%20Report_2022%20Winter%20Base%20SPOC.pdf)<br>
+  **View My Transcript**: [Transcript](file/Yifei%20Shen%20-%20Learning%20Analytics%20Report_2022%20Winter%20Base%20SPOC.pdf)<br>
 
   <br> <!-- This is the added space -->
 
