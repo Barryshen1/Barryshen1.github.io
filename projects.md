@@ -19,9 +19,9 @@ title: Projects
   **View The PDF**: [Final Report](file/MIT_PBL/Meta%20Hands-on%20Report.pdf)<br>
 
 <div style="display: flex; gap: 10px; margin-bottom: 20px;">
-  <img src="images/meta project Figure1.jpg" style="width: 200px; height: auto;">
-  <img src="images/meta project Figure2.jpg" style="width: 200px; height: auto;">
-  <img src="images/meta project Figure3.jpg" style="width: 200px; height: auto;">
+  <img src="meta project Figure1.jpg" style="width: 200px; height: auto;">
+  <img src="meta project Figure2.jpg" style="width: 200px; height: auto;">
+  <img src="meta project Figure3.jpg" style="width: 200px; height: auto;">
 </div>
 
  <br> <!-- This is the added space -->
@@ -37,9 +37,9 @@ title: Projects
   **View The PDF**: [Final Presentation](file/MIT_PBL/AR%20pbl%20final%20pre.pdf)<br>
 
 <div style="display: flex; gap: 10px; margin-bottom: 20px;">
-  <img src="images/Solid Jellyfish project Figure1.jpg" style="width: 200px; height: auto;">
-  <img src="images/Solid Jellyfish project Figure2.jpg" style="width: 200px; height: auto;">
-  <img src="images/Solid Jellyfish project Figure3.jpg" style="width: 200px; height: auto;">
+  <img src="Solid Jellyfish project Figure1.jpg" style="width: 200px; height: auto;">
+  <img src="Solid Jellyfish project Figure2.jpg" style="width: 200px; height: auto;">
+  <img src="Solid Jellyfish project Figure3.jpg" style="width: 200px; height: auto;">
 </div>
 
   <br> <!-- This is the added space -->
