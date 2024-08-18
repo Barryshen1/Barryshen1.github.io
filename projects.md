@@ -21,7 +21,7 @@ title: Projects
 <div style="display: flex; gap: 10px; margin-bottom: 20px;">
   <img src="meta project Figure1.jpg" style="width: 200px; height: auto;">
   <img src="meta project Figure2.jpg" style="width: 200px; height: auto;">
-
+  <img src="meta project Figure3.jpg" style="width: 200px; height: auto;">
 </div>
 
  <br> <!-- This is the added space -->
