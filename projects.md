@@ -15,7 +15,7 @@ title: Projects
   Human-Computer Interaction Institute in the School of Computer Science<br>
   July 10, 2022 - September 3, 2022<br>
   **Objective**: This project aims to explore placemaking applied as planning, designing, and managing social VR spaces for communities’ well-being in the metaverse towards generating design principles and standards for creating and cultivating a more inclusive and community-serving metaverse as it continues to emerge and evolve.<br>
-  **Letter of Recommendation from Erica Cruz**: [Recommendation Letter](Barryshen1.github.io/projects/file/MIT_PBL/Meta%20PBL%20Research%20Summary%20Report%20-%20Yifei%20Shen.pdf)<br>
+  **Letter of Recommendation from Erica Cruz**: [Recommendation Letter](file/MIT_PBL/Meta%20PBL%20Research%20Summary%20Report%20-%20Yifei%20Shen.pdf)<br>
   **View The PDF**: [Final Report](Barryshen1.github.io/projects/file/MIT_PBL/Meta%20Hands-on%20Report.pdf)<br>
 
   <div style="display: flex; gap: 10px;">
