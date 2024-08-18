@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /Summer_School/index.html
-title: Summer School
+permalink: /Summer&Winter School/index.html
+title: Summer&Winter School
 ---
 
 
