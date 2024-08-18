@@ -17,7 +17,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 - **Sep 2024 - Future:** University of Washington (Incoming MSEE)
 - **Sep 2020 - July 2024:**  Liverpool University (BEng, Digital Media Technology)
 - **Sep 2020 - July 2024:**  Xi'an Jiaotong-Liverpool University (BEng, Digital Media Technology)
-- **Jan 2022 - March 2022:** [Massachusetts Institute of Technology (Winter School)](https://xpro.mit.edu/certificate/3e48237c-fcae-44f7-9991-b43feddf783a/)
+- **Jan 2022 - March 2022:** [Massachusetts Institute of Technology (Winter School, 2.5 CEUs)](https://xpro.mit.edu/certificate/3e48237c-fcae-44f7-9991-b43feddf783a/)
 
 ---
 
