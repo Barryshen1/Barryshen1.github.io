@@ -8,17 +8,16 @@ title: Projects
 
 ## About Human-Computer Interaction
 
-- **Exploring Placemaking in VR Towards a More Inclusive Metaverse - Meta Project**<br>
-  **Project Leader**: [Erica Cruz](https://eripricru.wixsite.com/playfulresistance)<br>
-  **Yifei Shen, Yuncong Zhang, Feifei Yang, Shucheng Liu**<br>
-  Camegie Mellon University<br>
-  Human-Computer Interaction Institute in the School of Computer Science<br>
-  July 10, 2022 - September 3, 2022<br>
-  **Objective**: This project aims to explore placemaking applied as planning, designing, and managing social VR spaces for communities’ well-being in the metaverse towards generating design principles and standards for creating and cultivating a more inclusive and community-serving metaverse as it continues to emerge and evolve.<br>
-  **Letter of Recommendation from Erica Cruz**: [Recommendation Letter](file/MIT_PBL/Meta%20PBL%20Research%20Summary%20Report%20-%20Yifei%20Shen.pdf)<br>
-  **View The PDF**: [Final Report](file/MIT_PBL/Meta%20Hands-on%20Report.pdf)<br>
+- **Indoor and outdoor Pedestrian Positioning**<br>
+  **Project Leader**: [Xinheng Wang](https://scholar.xjtlu.edu.cn/en/persons/XinhengWang)<br>
+  **Yifei Shen, Heming Chen, Yihan Zhang, Qixiang Hu, Junjie Qiu**<br>
+  Xi'an Jiaotong-Liverpool University<br>
+  March 14, 2023 - May 20, 2023<br>
+  **Objective**: The object of this project is to develop a new technology for indoor positioning services for pedestrians, as traditional GPS technology becomes useless in indoor environments.<br>
+  **View The POSTER**: [Final Poster](file/MEC302/Poster final.pdf)<br>
+  **View The PDF**: [Final Report](file/MEC302/MEC202 report_Group 34_2034634_2034340_2034010_2036499_1929268.pdf)<br>
 
- <br> <!-- This is the added space -->
+<br> <!-- This is the added space -->
 
 - **Blended Reality - Solid Jellyfish Project**<br>
   **Project Leader**: [Seph Li](https://solid-jellyfish.com)<br>
@@ -32,8 +31,20 @@ title: Projects
 
   <br> <!-- This is the added space -->
 
-## About Natural Language Processing
+- **Exploring Placemaking in VR Towards a More Inclusive Metaverse - Meta Project**<br>
+  **Project Leader**: [Erica Cruz](https://eripricru.wixsite.com/playfulresistance)<br>
+  **Yifei Shen, Yuncong Zhang, Feifei Yang, Shucheng Liu**<br>
+  Camegie Mellon University<br>
+  Human-Computer Interaction Institute in the School of Computer Science<br>
+  July 10, 2022 - September 3, 2022<br>
+  **Objective**: This project aims to explore placemaking applied as planning, designing, and managing social VR spaces for communities’ well-being in the metaverse towards generating design principles and standards for creating and cultivating a more inclusive and community-serving metaverse as it continues to emerge and evolve.<br>
+  **Letter of Recommendation from Erica Cruz**: [Recommendation Letter](file/MIT_PBL/Meta%20PBL%20Research%20Summary%20Report%20-%20Yifei%20Shen.pdf)<br>
+  **View The PDF**: [Final Report](file/MIT_PBL/Meta%20Hands-on%20Report.pdf)<br>
 
+ <br> <!-- This is the added space -->
+
+
+## About Natural Language Processing
 
 - **NLP Summer Camp**<br>
   **Yifei Shen**<br>
@@ -52,5 +63,14 @@ title: Projects
 
 ## About Computer Vision
 
+- **Computer Vision and Image Processing - Microsoft Project**<br>
+  **Project Leader**: [Piotr Swierczynski](https://theorg.com/org/nodar/org-chart/piotr-swierczynski)<br>
+  **Yifei Shen, Yuting Lu, Jiayuan Su**<br>
+  NODAR<br>
+  February 19, 2022 - May 21, 2022<br>
+  **Objective**: The track of our project is Chinese Character Style Transfer with Conditional GAN. The goal of our project is to use CGAN for transferring the style of Chinese characters from standard font stylized words to multiple styles. The purpose of this is to improve the stylization of pictographs, including not only Chinese characters but also Japanese and Korean characters in the future. The study used methods such as U-Net in constructing the basic model framework. Category loss and constant loss were added to the network structure in new ideas proposed based on pix2pix, resulting in more idealized output-results. The final work successfully produced Chinese characters in different styles while maintaining the same shapes as the basic facts. This means that CGAN can handle Chinese character style problems well and has the potential to solve more research problems in the future.<br>
+  **Letter of Recommendation from Piotr Swierczynski**: [Recommendation Letter](file/MIT_PBL/CV PBL Hands-On Recommendation Summary Report_YfS.pdf)<br>
+  **View The PDF**: [Final Report](file/MIT_PBL/Chinese_Character_Style_Transfer_with_Conditional_GAN.pdf)<br>
 
+ <br> <!-- This is the added space -->
 
