@@ -38,14 +38,12 @@ google_verify: "SkiyuGpJOKT74vv5GmXLvYXXDkXy4v8VWPtbelYz3Hs"
 links:
   - title: About Me
     url: /
-  - title: Awards
-    url: /awards/
   - title: Projects
     url: /projects/
   - title: Summer&Winter School
     url: /summer&winter school/
-#  - title: Blogs
-#    url: /blogs/
+  - title: Online Courses&Certificates
+    url: /online courses&certificates/
 #  - title: Teams
 #    url: /teams/
 

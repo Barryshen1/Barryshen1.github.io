@@ -6,7 +6,7 @@ title: Projects
 
 > Lastest Update: 13th Aug 2024 &nbsp;
 
-## Projects
+## About Human-Computer Interaction
 
 - **Exploring Placemaking in VR Towards a More Inclusive Metaverse - Meta Project**<br>
   **Project Leader**: [Erica Cruz](https://eripricru.wixsite.com/playfulresistance)<br>
@@ -32,6 +32,9 @@ title: Projects
 
   <br> <!-- This is the added space -->
 
+## About Natural Language Processing
+
+
 - **NLP Summer Camp**<br>
   **Yifei Shen**<br>
   Nanjing University (NJU)<br>
@@ -45,3 +48,9 @@ title: Projects
   **View My Notebook**: [Github](https://github.com/Barryshen1/2024NJUNLP-)<br>
 
 <br> <!-- This is the added space -->
+
+
+## About Computer Vision
+
+
+
