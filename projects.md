@@ -25,6 +25,7 @@ title: Projects
   June 1, 2022 – August 1, 2022<br>
   **Objective**: Currently, the amount of river waste in China is increasing, and the surface waste in rivers and tributaries, if not treated, can cause significant damage to the environment. This project developed an intelligent solar multi-rotor surface debris collection system. In this project, we built a 3D model in Rhino and imported it into ROS to simulate the robot's working environment for testing. Through the experiment, we can conclude that the garbage collection system can collect more than 90% of the garbage.<br>
   **View The Poster**: [Final Poster](file/SURF/Surf post.pdf)<br>
+  **View The Certificate**: [SURF Student Certificate](file/SURF/2022 SURF Student Certificate.pdf)<br>
 
 <br> <!-- This is the added space -->
 
