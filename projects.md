@@ -6,6 +6,28 @@ title: Projects
 
 > Lastest Update: 13th Aug 2024 &nbsp;
 
+## SUMMER UNDERGRADUATE RESEARCH
+
+- **AI-Generated Art: From Screenplays to Images & Beyond**<br>
+  **Project Leader**: [Jieming Ma](https://scholar.xjtlu.edu.cn/en/persons/JiemingMa)<br>
+  **Yifei Shen, Yizhao Chen, Fanyun Yang, Machao Yang, Xining Ge, Dongyu Mo, Xiaohan Zhang and Fengze Li*<br>
+  Xi'an Jiaotong-Liverpool University<br>
+  May 1, 2023 - November 15, 2023<br>
+  **Objective**: In the process of generating images and videos, our project employed a diffusion model-based image generator to craft the appearance of the two avatars representing bishops. To produce the auditory dialogue for these avatars, an extensive dataset of authentic audio samples was curated and refined. Subsequent audio editing and enhancement were facilitated using third-party software, in conjunction with IIElevenLabs, ensuring the avatars' voices were of high fidelity. The script for the culminating video was derived from Baidu's Ernie Bot, a knowledge-enhanced language model termed “Wen Xin Yi Yan LLM." Following meticulous human editing of the script, video generators, specifically Gen-2 and Runway, were employed to finalize the digital human video. This video depicts an engaging discourse between Principal Xi and Robin Li on a pertinent topic.<br>
+  **View The POSTER**: [Final Poster](file/SURF/surf2023_Aug28.pdf)<br>
+
+<br> <!-- This is the added space -->
+
+- **DESIGN and SIMULANTION of an AUTONOMOUS RIVER CLEANING ROBOT**<br>
+  **Project Leader**: [Jieming Ma](https://scholar.xjtlu.edu.cn/en/persons/JiemingMa)<br>
+  **Yifei Shen, Haoxuan Li, Yihan Zhou, Jianing Wang, Changbo Zheng**<br>
+  Xi'an Jiaotong-Liverpool University<br>
+  June 1, 2022 – August 1, 2022<br>
+  **Objective**: Currently, the amount of river waste in China is increasing, and the surface waste in rivers and tributaries, if not treated, can cause significant damage to the environment. This project developed an intelligent solar multi-rotor surface debris collection system. In this project, we built a 3D model in Rhino and imported it into ROS to simulate the robot's working environment for testing. Through the experiment, we can conclude that the garbage collection system can collect more than 90% of the garbage.<br>
+  **View The POSTER**: [Final Poster](file/SURF/Surf post.pdf)<br>
+
+<br> <!-- This is the added space -->
+
 ## XJTLU External Mentor Research
 
 - **Agricultural Harvesting Robot**<br>
