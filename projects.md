@@ -10,11 +10,11 @@ title: Projects
 
 - **AI-Generated Art: From Screenplays to Images & Beyond**<br>
   **Project Leader**: [Jieming Ma](https://scholar.xjtlu.edu.cn/en/persons/JiemingMa)<br>
-  **Yifei Shen, Yizhao Chen, Fanyun Yang, Machao Yang, Xining Ge, Dongyu Mo, Xiaohan Zhang and Fengze Li*<br>
+  **Yifei Shen, Yizhao Chen, Fanyun Yang, Machao Yang, Xining Ge, Dongyu Mo, Xiaohan Zhang and Fengze Li**<br>
   Xi'an Jiaotong-Liverpool University<br>
   May 1, 2023 - November 15, 2023<br>
   **Objective**: In the process of generating images and videos, our project employed a diffusion model-based image generator to craft the appearance of the two avatars representing bishops. To produce the auditory dialogue for these avatars, an extensive dataset of authentic audio samples was curated and refined. Subsequent audio editing and enhancement were facilitated using third-party software, in conjunction with IIElevenLabs, ensuring the avatars' voices were of high fidelity. The script for the culminating video was derived from Baidu's Ernie Bot, a knowledge-enhanced language model termed “Wen Xin Yi Yan LLM." Following meticulous human editing of the script, video generators, specifically Gen-2 and Runway, were employed to finalize the digital human video. This video depicts an engaging discourse between Principal Xi and Robin Li on a pertinent topic.<br>
-  **View The POSTER**: [Final Poster](file/SURF/surf2023_Aug28.pdf)<br>
+  **View The Poster**: [Final Poster](file/SURF/surf2023_Aug28.pdf)<br>
 
 <br> <!-- This is the added space -->
 
@@ -24,7 +24,7 @@ title: Projects
   Xi'an Jiaotong-Liverpool University<br>
   June 1, 2022 – August 1, 2022<br>
   **Objective**: Currently, the amount of river waste in China is increasing, and the surface waste in rivers and tributaries, if not treated, can cause significant damage to the environment. This project developed an intelligent solar multi-rotor surface debris collection system. In this project, we built a 3D model in Rhino and imported it into ROS to simulate the robot's working environment for testing. Through the experiment, we can conclude that the garbage collection system can collect more than 90% of the garbage.<br>
-  **View The POSTER**: [Final Poster](file/SURF/Surf post.pdf)<br>
+  **View The Poster**: [Final Poster](file/SURF/Surf post.pdf)<br>
 
 <br> <!-- This is the added space -->
 
@@ -36,7 +36,7 @@ title: Projects
   Fudan University<br>
   May 1, 2023 - November 15, 2023<br>
   **Objective**: Develop an efficient weed recognition algorithm – to create an image recognition algorithm that can accurately differentiate between tomatoes and weeds, while minimizing damage to unripe tomatoes and surrounding crops, and to integrate this with the robot's movements.<br>
-  **View The POSTER**: [Final Poster](file/XJTLU External Mentor Research/poster1.pdf)<br>
+  **View The Poster**: [Final Poster](file/XJTLU External Mentor Research/poster1.pdf)<br>
   **View The PDF**: [Final Report](file/XJTLU External Mentor Research/Agricultural Harvesting Robot.pdf)<br>
 
 <br> <!-- This is the added space -->
@@ -47,7 +47,7 @@ title: Projects
   Semiconductor Global Solutions<br>
   July 1, 2023 - September 1, 2023<br>
   **Objective**: Enhanced semiconductor supply chain management by researching manufacturing processes, optimizing production policies, and understanding differences between DUV and EUV technologies.<br>
-  **View The POSTER**: [Final Poster](file/XJTLU External Mentor Research/poster2.pdf)<br>
+  **View The Poster**: [Final Poster](file/XJTLU External Mentor Research/poster2.pdf)<br>
 
 <br> <!-- This is the added space -->
 
@@ -59,7 +59,7 @@ title: Projects
   Xi'an Jiaotong-Liverpool University<br>
   March 14, 2023 - May 20, 2023<br>
   **Objective**: The object of this project is to develop a new technology for indoor positioning services for pedestrians, as traditional GPS technology becomes useless in indoor environments.<br>
-  **View The POSTER**: [Final Poster](file/MEC302/Poster final.pdf)<br>
+  **View The Poster**: [Final Poster](file/MEC302/Poster final.pdf)<br>
   **View The PDF**: [Final Report](file/MEC302/MEC202 report_Group 34_2034634_2034340_2034010_2036499_1929268.pdf)<br>
 
 <br> <!-- This is the added space -->
