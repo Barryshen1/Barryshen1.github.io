@@ -7,43 +7,57 @@ title: Online Courses&Certificates
 
 ## Online Courses&Certificates
 
-- **CCAI Summer School 2024**<br>
+- **Generative AI with Large Language Models**<br>
   **Yifei Shen**<br>
-  Climate Change AI (CCAI)<br>
-  June. 20, 2024 - Aug. 2, 2024
-  - Introduction to Climate Change and AI
-  - AI for Agriculture, Forestry, and Other Land Use  
-  - AI for Biodiversity and Ecosystems
-  - AI for Social Sciences, Economics and Policy, Part I
-  - Agile Modeling for Bioacoustic Monitoring Live Tutorial Walkthrough
-  - AI for Climate Science
-  - AI for Monitoring, Reporting, and Verification
-  - AI for Social Sciences, Economics and Policy, Part II
-  - Ethics, Impacts, and Regulation of AI
-  - AI for Buildings and Cities
-  - GHG Impact Assessment of AI
-  - AI for Energy Systems
-  - AI for Transportation
-  - Climate, Health, and AI<br>
-  **View My Offer**: [Offer](file/CCAI Virtual Summer School 2024 Offer.pdf)<br>
-  **View the Materials**: [Materials](https://community.climatechange.ai/c/materials/)<br>
-  **View My Certificate**: Ready on Aug 30, 2024<br>
+  DeepLearning.AI<br>
+  July 26, 2024
+  - Gain foundational knowledge, practical skills, and a functional understanding of how generative AI works
+  - Instruction from expert AWS AI practitioners who actively build and deploy AI in business use-cases today  
+  - Dive into the latest research on Gen AI to understand how companies are creating value with cutting-edge technology<br>
+  **View My Certificate**: [Certificate](file/Coursera L2NHLW8ALR85.pdf)<br>
 
 <br> <!-- This is the added space -->
 
-- **Machine Learning, Modeling, and Simulation Principles(2.5 CEUs)**<br>
-  *Winter School*<br>
+- **Generative AI for Everyone**<br>
   **Yifei Shen**<br>
-  Massachusetts Institute of Technology (MIT)<br>
-  **Grade**: A+<br>
-  Jan. 24, 2022 - March. 7, 2022
-  - Simulating physical processes using numerical discretization methods
-  - Assessing cost-accuracy tradeoffs in numerical simulation  
-  - Learning powerful optimization techniques and understanding their fundamental role in machine learning
-  - Describing canonical machine learning problems from a statistical perspective
-  - Practicing real-world forecasting and risk assessment problems using Monte Carlo simulation<br>
-  **View My Certificate**: [Machine Learning, Modeling, and Simulation Principles](https://xpro.mit.edu/certificate/3e48237c-fcae-44f7-9991-b43feddf783a/)<br>
-  **View My Transcript**: [Transcript](file/Yifei Shen - Learning Analytics Report_2022 Winter Base SPOC.pdf)<br>
+  DeepLearning.AI<br>
+  May 15, 2024
+  - What generative AI is and how it works, its common use cases, and what this technology can and cannot do.
+  - The potential opportunities and risks that generative AI technologies present to individuals, businesses, and society.  
+  - How to think through the lifecycle of a generative AI project, from conception to launch, including how to build effective prompts.<br>
+  **View My Certificate**: [Certificate](file/Coursera 6DTLU5LMN3YA.pdf)<br>
+
+  <br> <!-- This is the added space -->
+
+- **Natural Language Processing with Classification and Vector Spaces**<br>
+  **Yifei Shen**<br>
+  DeepLearning.AI<br>
+  May 2, 2024
+  - Use logistic regression, naïve Bayes, and word vectors to implement sentiment analysis, complete analogies & translate words.<br>
+  **View My Certificate**: [Certificate](file/Coursera SNY72MGSNTQN.pdf)<br>
+
+  <br> <!-- This is the added space -->
+
+- **Data Science: Visualization**<br>
+  **Yifei Shen**<br>
+  HarvardX<br>
+  February 1, 2024
+  - Data visualization principles
+  - How to communicate data-drivenfindings
+  - How to use ggplot2 to create custom plots
+  - The weaknesses of several widely-used plots and why you should avoid them<br>
+  **View My Certificate**: [Certificate](file/HarvardX PH125.2x 修课证明 _ edX.pdf)<br>
+
+  <br> <!-- This is the added space -->
+
+- **Data Science: R Basics**<br>
+  **Yifei Shen**<br>
+  HarvardX<br>
+  January 27, 2024
+  - Basic R syntax
+  - Foundational R programming concepts such as data types, vectors arithmetic, and indexing
+  - How to perform operations in R including sorting, data wrangling using dplyr, and making plots<br>
+  **View My Certificate**: [Certificate](file/HarvardX PH125.1x 修课证明 _ edX.pdf)<br>
 
   <br> <!-- This is the added space -->
 
