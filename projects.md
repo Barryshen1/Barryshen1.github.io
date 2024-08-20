@@ -42,6 +42,16 @@ title: Projects
 
 <br> <!-- This is the added space -->
 
+- **Assistive Fitness PatchSystem Based on Electronic Biotechnology**<br>
+  **Project Leader**: [Yue Li](https://scholar.xjtlu.edu.cn/en/persons/YueLi)<br>
+  **Yifei Shen, Jingcheng Li, Ziyang He, Xi Kong, Xinyuan Zhang, Tianxing He**<br>
+  Xi'an Jiaotong-Liverpool University<br>
+  February 24, 2023 - May 12, 2023<br>
+  **Objective**: Designed prototypes using patches to sense muscle strength and receive electrical signals, then use algorithms to assist with fitness, accurately helping people exercise and reducing exercise costs.<br>
+  **View The PDF**: [Final Presentation](file/CPT208/CPT208_GroupC4_PortfolioPresentation1_Slides.pdf)<br>
+
+<br> <!-- This is the added space -->
+
 - **Blended Reality - Solid Jellyfish Project**<br>
   **Project Leader**: [Seph Li](https://solid-jellyfish.com)<br>
   **Yifei Shen**<br>
