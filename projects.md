@@ -8,11 +8,21 @@ title: Projects
 
 ## XJTLU External Mentor Research
 
+- **Semiconductor Supply Chain Optimization**<br>
+  **Project Leader**: [Zhaoming Chen](https://www.linkedin.com/in/%E8%B5%B5%E6%98%8E-%E9%99%88-b3852211a/?originalSubdomain=cn)<br>
+  **Yifei Shen, Ziyin Yan, Yihan Wang, Anyu Shen, Yiqing Liu, Yun YU**<br>
+  Semiconductor Global Solutions<br>
+  July 1, 2023 - September 1, 2023<br>
+  **Objective**: Enhanced semiconductor supply chain management by researching manufacturing processes, optimizing production policies, and understanding differences between DUV and EUV technologies.<br>
+  **View The POSTER**: [Final Poster](file/XJTLU External Mentor Research/poster2.pdf)<br>
+
+<br> <!-- This is the added space -->
+
 - **Agricultural Harvesting Robot**<br>
   **Project Leader**: [Ricky Li](https://scholar.google.co.uk/citations?user=mIzfwGAAAAAJ&hl=en)<br>
   **Yifei Shen, Xiyue Wang, Renxing Li, Xinyao Liu, Chenyu Yan, Zixuan Deng, Manchuan Fang, Jin Zhao**<br>
   Fudan University<br>
-  July 1, 2023 - November 15, 2023<br>
+  May 1, 2023 - November 15, 2023<br>
   **Objective**: Develop an efficient weed recognition algorithm – to create an image recognition algorithm that can accurately differentiate between tomatoes and weeds, while minimizing damage to unripe tomatoes and surrounding crops, and to integrate this with the robot's movements.<br>
   **View The POSTER**: [Final Poster](file/XJTLU External Mentor Research/poster1.pdf)<br>
   **View The PDF**: [Final Report](file/XJTLU External Mentor Research/Agricultural Harvesting Robot.pdf)<br>
