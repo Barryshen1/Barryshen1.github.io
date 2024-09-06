@@ -34,6 +34,11 @@ My current research focuses on advanced machine learning algorithms and their ap
 
 ## News and Updates
 
+- **Sep 7 2024：**Received a certificate for participating in the [CCAI Virtual Summer School 2024](file/Climate Change AI Summer School 2024 Certificate of Attendance - YIFEI SHEN.pdf).
+  <br>
+  <div style="display: flex; align-items: center; gap: 10px;">
+    <img src="images/certificate of attendance.jpg" style="width: 250px; height: auto;">
+  </div>
 - **Aug 1 2024：**Successfully graduated from Xi'an Jiaotong-Liverpool University and was awarded the Bachelor’s degree in Engineering from both Xi'an Jiaotong-Liverpool University and the University of Liverpool.
   <br>
   <div style="display: flex; gap: 10px;">

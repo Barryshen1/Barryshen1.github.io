@@ -27,7 +27,7 @@ title: Summer&Winter School
   - Climate, Health, and AI<br>
   **View My Offer**: [Offer](file/CCAI Virtual Summer School 2024 Offer.pdf)<br>
   **View the Materials**: [Materials](https://community.climatechange.ai/c/materials/)<br>
-  **View My Certificate**: Ready on Aug 30, 2024<br>
+  **View My Certificate**: [Climate Change AI Summer School 2024 Certificate of Attendance](file/Climate Change AI Summer School 2024 Certificate of Attendance - YIFEI SHEN.pdf)<br>
 
 <br> <!-- This is the added space -->
 
