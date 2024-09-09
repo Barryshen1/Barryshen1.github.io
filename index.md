@@ -8,7 +8,7 @@ layout: page
 
 Here is **Yifei Shen (Barry, 沈逸飞)**.
 
-I am a first-year master's student at the University of Washington, Seattle, in the Department of Electrical and Computer Engineering. Prior to joining the University of Washington, I received my BEng in Digital Media Technology from Xi'an Jiaotong-Liverpool University in 2024, where I was advised by [Prof. Jieming Ma](https://scholar.xjtlu.edu.cn/en/persons/JiemingMa). During my undergraduate studies, my research focused on Artificial Intelligence, Large Language Models (LLMs), Computer Vision (CV), and Natural Language Processing (NLP).
+I am a first-year master's student at the University of Washington, Seattle, in the Department of Electrical and Computer Engineering. Prior to joining the University of Washington, I received my BEng in Digital Media Technology from Xi'an Jiaotong-Liverpool University and Liverpool University in 2024, where I was advised by [Prof. Jieming Ma](https://scholar.xjtlu.edu.cn/en/persons/JiemingMa). During my undergraduate studies, my research focused on Computer Vision (CV), Human–Computer Interaction (HCI), Large Language Models (LLMs).
 
 If you are interested in any aspect of me, I would love to chat and collaborate, please email me at - *yifeis02[at]uw[dot]edu*
 
@@ -23,12 +23,12 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 
 ## Research Interests
 
-- Artificial Intelligence
-- Large Language Models (LLMs)
 - Computer Vision (CV)
+- Human–Computer Interaction (HCI)
 - Natural Language Processing (NLP)
+- Large Language Models (LLMs)
 
-My current research focuses on advanced machine learning algorithms and their applications in real-time data processing and autonomous systems. My interests lie in leveraging these technologies to create intelligent systems that can understand and interact with the world in more human-like ways. I wish to advance the field by developing innovative AI solutions that can improve automation, enhance decision-making processes, and provide significant benefits across various sectors, including healthcare, robotics, and information technology.
+My interest lies in leveraging AI technologies to create intelligent systems that can understand and interact with the world in a more human-like way. I hope to advance the field by developing innovative AI solutions that can improve automation, enhance decision-making processes, and bring significant benefits to a variety of fields such as healthcare, robotics and climate change.
 
 ---
 
