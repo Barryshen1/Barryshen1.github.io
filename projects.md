@@ -6,6 +6,20 @@ title: Projects
 
 > Lastest Update: 13th Aug 2024 &nbsp;
 
+## About Large Language Model Agents
+
+- **Build an LLM and RAG-based Chat Application using AlloyDB and LangChain**<br>
+  **Instructor**: [Google Cloud Training](https://www.coursera.org/instructor/google-cloud-training)<br>
+  **Yifei Shen**<br>
+  University of Washington<br>
+  Completed on October 8, 2024<br>
+  - Explored the functioning of Large Language Models (LLMs) and their   enhancement through Retrieval-Augmented Generation (RAG) for efficient information retrieval from knowledge bases.
+  - Gained proficiency in using LangChain's tools and components for developing LLM-powered applications, including document loaders, prompt templates, and chains.
+  - Acquired skills in setting up and interacting with AlloyDB, a scalable PostgreSQL database optimized for demanding workloads.<br>
+  **View My Certificate**: [Certificate](file\Coursera DESRBBWIRGMG.pdf)<br>
+
+<br> <!-- This is the added space -->
+
 ## SUMMER UNDERGRADUATE RESEARCH
 
 - **AI-Generated Art: From Screenplays to Images & Beyond**<br>
