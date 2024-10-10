@@ -4,7 +4,7 @@ permalink: /projects/index.html
 title: Projects
 ---
 
-> Lastest Update: 13th Aug 2024 &nbsp;
+> Lastest Update: 9th Oct 2024 &nbsp;
 
 ## About Large Language Model Agents
 
