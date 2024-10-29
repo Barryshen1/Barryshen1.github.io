@@ -27,7 +27,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 - Human–Computer Interaction (HCI)
 - Large Language Models (LLMs)
 
-My interest lies in leveraging AI technologies to create intelligent systems that can understand and interact with the world in a more human-like way. I hope to advance the field by developing innovative AI solutions that can improve automation, enhance decision-making processes, and bring significant benefits to a variety of fields such as healthcare, robotics and climate change.
+I am currently a remote intern at Yale NLP Lab, focusing on LLMs and AI Agents. 
 
 ---
 
