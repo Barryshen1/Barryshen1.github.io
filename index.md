@@ -2,6 +2,8 @@
 layout: page
 ---
 
+<body>
+
 # About Me
 
 <img src="https://Barryshen1.github.io/Yifei_Shen.jpg" class="floatpic" width="273" height="272.9">
@@ -50,3 +52,4 @@ I am currently a remote intern at Yale NLP Lab, focusing on LLMs and AI Agents.
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=sGhgyqU1_A_4BuwEnb-eastnCKGF0Eef9PnRt3BDcj8&cl=ffffff&w=a"></script>
 
+</body>
