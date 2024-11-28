@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<body>
+
 
 # About Me
 
@@ -53,5 +53,3 @@ I am currently a remote intern at Yale NLP Lab, focusing on LLMs and AI Agents.
 <div id="globe-container" style="width: 200px; height: 200px;">
     <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=sGhgyqU1_A_4BuwEnb-eastnCKGF0Eef9PnRt3BDcj8&cl=ffffff&w=a"></script>
 </div>
-
-</body>
