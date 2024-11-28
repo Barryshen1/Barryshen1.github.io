@@ -50,6 +50,8 @@ I am currently a remote intern at Yale NLP Lab, focusing on LLMs and AI Agents.
 - **March 31 2024：**[I've been accepted to the CCAI Virtual Summer School 2024](file/CCAI%20Virtual%20Summer%20School%202024%20Offer.pdf)!
 - **March 7 2022：**Completed the [winter course](https://courses.xpro.mit.edu/learn/course/course-v1:xPRO+MLxTouchEdu1+SPOC_R6/home) offered by MIT: [Machine Learning, Modeling, and Simulation Principles](https://xpro.mit.edu/certificate/3e48237c-fcae-44f7-9991-b43feddf783a/)!
 
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=sGhgyqU1_A_4BuwEnb-eastnCKGF0Eef9PnRt3BDcj8&cl=ffffff&w=a"></script>
+<div id="globe-container" style="width: 200px; height: 200px;">
+    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=sGhgyqU1_A_4BuwEnb-eastnCKGF0Eef9PnRt3BDcj8&cl=ffffff&w=a"></script>
+</div>
 
 </body>
