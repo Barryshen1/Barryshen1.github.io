@@ -8,13 +8,12 @@ layout: page
 
 Here is **Yifei Shen (Barry, 沈逸飞)**.
 
-I am a first-year master's student at the University of Washington, Seattle, in the Department of Electrical and Computer Engineering. Prior to joining the University of Washington, I received my BEng in Digital Media Technology from Xi'an Jiaotong-Liverpool University and Liverpool University in 2024, where I was advised by [Prof. Jieming Ma](https://scholar.xjtlu.edu.cn/en/persons/JiemingMa). During my undergraduate studies, my research focused on Computer Vision (CV), Human–Computer Interaction (HCI), Large Language Models (LLMs). I plan to join the University of Florida's undergraduate computer science program in Spring 2025 to continue my computer science degree. So, go Gators!
+I am a first-year master's student at the University of Washington, Seattle, in the Department of Electrical and Computer Engineering. Prior to joining the University of Washington, I received my BEng in Digital Media Technology from Xi'an Jiaotong-Liverpool University and Liverpool University in 2024, where I was advised by [Prof. Jieming Ma](https://scholar.xjtlu.edu.cn/en/persons/JiemingMa). During my undergraduate studies, my research focused on Computer Vision (CV), Human–Computer Interaction (HCI), Large Language Models (LLMs).
 
-If you are interested in any aspect of me, I would love to chat and collaborate, please email me at - *yifeis02[at]uw[dot]edu* or *yifei.shen[at]ufl[dot]edu*
+If you are interested in any aspect of me, I would love to chat and collaborate, please email me at - *yifeis02[at]uw[dot]edu*
 
 ## Academic Background
 
-- **Jan 2025 - Future:** University of Florida (BS, Computer Science)
 - **Sep 2024 - Future:** University of Washington (MS in ECE)
 - **Sep 2020 - July 2024:**  Liverpool University (BEng, Digital Media Technology)
 - **Sep 2020 - July 2024:**  Xi'an Jiaotong-Liverpool University (BEng, Digital Media Technology)
