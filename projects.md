@@ -4,19 +4,17 @@ permalink: /projects/index.html
 title: Projects
 ---
 
-> Lastest Update: 9th Oct 2024 &nbsp;
+> Lastest Update: 16th Jan 2025 &nbsp;
 
-## About Large Language Model Agents
+## About Large Language Models
 
-- **Build an LLM and RAG-based Chat Application using AlloyDB and LangChain**<br>
-  **Instructor**: [Google Cloud Training](https://www.coursera.org/instructor/google-cloud-training)<br>
-  **Yifei Shen**<br>
-  University of Washington<br>
-  Completed on October 8, 2024<br>
-  - Explored the functioning of Large Language Models (LLMs) and their   enhancement through Retrieval-Augmented Generation (RAG) for efficient information retrieval from knowledge bases.
-  - Gained proficiency in using LangChain's tools and components for developing LLM-powered applications, including document loaders, prompt templates, and chains.
-  - Acquired skills in setting up and interacting with AlloyDB, a scalable PostgreSQL database optimized for demanding workloads.<br>
-  **View My Certificate**: [Certificate](file\Coursera DESRBBWIRGMG.pdf)<br>
+- **Efficient Inference of Large-Scale LLMs on a Single GPU**<br>
+  **Project Leader**: [Weifeng Zhang](https://research.lenovo.com/webapp/view_English/personal.html?id=541), [Yan Li](https://www.linkedin.com/in/liyancas/)<br>
+  **Yifei Shen, Kexin Tang, Arvind Raman, Tianyi Li, Zichen Huang, Mihir Pathak**<br>
+  Lenovo Research – ICI & WR Lab<br>
+  Jan 6, 2025 - Present<br>
+  **Objective**: Efficiently perform inference on large-scale Large Language Models (LLMs) such as Llama 3.1-70B using a single GPU (e.g., NVIDIA A40 or RTX 4090) while maintaining acceptable model accuracy and throughput, making these models more accessible and widely applicable. The key focus areas include model compression, optimization techniques for long-sequence inference, and integrating these techniques into a unified inference workflow to enhance efficiency and reliability.<br>
+  **View The Project Information**: [Poster](file/Lenovo_Research.png)<br>
 
 <br> <!-- This is the added space -->
 

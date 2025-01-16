@@ -27,11 +27,16 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 - Human–Computer Interaction (HCI)
 - Large Language Models (LLMs)
 
-I am currently a remote intern at Yale NLP Lab, focusing on LLMs and AI Agents. 
+I am currently focused on the field of LLMs and working as a remote intern at the Yale NLP Lab. Additionally, in 2025, I am working as a researcher on a collaborative [project](file/Lenovo_Research.png) between the University of Washington and Lenovo Research. 
+I am seeking research intern positions in the area of large language models as well as PhD opportunities for Fall 2026. If you have suitable openings and are interested in my profile, I would be delighted to collaborate with you.
 
 ---
 
 ## News and Updates
+
+- **Jan 6 2025：**Serving as a researcher on the collaborative [project](file/Lenovo_Research.png) between the University of Washington and Lenovo Research titled "Efficient Inference of Large Language Models on Single GPU."
+
+- **Oct 26 2024：**Joined the Yale NLP Lab project focusing on "Multimodal Scientific Claim Verification."
 
 - **Sep 7 2024：**Received a certificate for participating in the [CCAI Virtual Summer School 2024](file/Climate Change AI Summer School 2024 Certificate of Attendance - YIFEI SHEN.pdf).
   <br>
