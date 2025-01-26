@@ -45,11 +45,6 @@ I am seeking research intern positions in the area of large language models as w
   </div>
 - **Aug 1 2024：**Successfully graduated from Xi'an Jiaotong-Liverpool University and was awarded the Bachelor’s degree in Engineering from both Xi'an Jiaotong-Liverpool University and the University of Liverpool.
   <br>
-  <div style="display: flex; gap: 10px;">
-    <img src="images/graduation_3.jpg" style="width: 200px; height: auto;">
-    <img src="images/graduation_2.jpg" style="width: 200px; height: auto;">
-    <img src="images/graduation_1.jpg" style="width: 200px; height: auto;">
-  </div>
 - **March 31 2024：**[I've been accepted to the CCAI Virtual Summer School 2024](file/CCAI%20Virtual%20Summer%20School%202024%20Offer.pdf)!
 - **March 7 2022：**Completed the [winter course](https://courses.xpro.mit.edu/learn/course/course-v1:xPRO+MLxTouchEdu1+SPOC_R6/home) offered by MIT: [Machine Learning, Modeling, and Simulation Principles](https://xpro.mit.edu/certificate/3e48237c-fcae-44f7-9991-b43feddf783a/)!
 
