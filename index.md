@@ -34,7 +34,7 @@ I am seeking research intern positions in the area of large language models as w
 
 ## News and Updates
 
-- **Jan 6 2025：**Serving as a researcher on the collaborative [project](file/Lenovo_Research.png) between the University of Washington and Lenovo Research titled "Efficient Inference of Large Language Models on Single GPU."
+- **Jan 6 2025：**Serving as a research Intern on the collaborative [project](file/Lenovo_Research.png) between the University of Washington and Lenovo Research titled "Efficient Inference of Large Language Models on Single GPU."
 
 - **Oct 26 2024：**Joined the Yale NLP Lab project focusing on "Multimodal Scientific Claim Verification."
 
