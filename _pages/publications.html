@@ -9,6 +9,22 @@ author_profile: true
 
 <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 
+<style>
+  ul {
+    padding-left: 20px;
+  }
+  li {
+    margin-bottom: 15px;
+    position: relative;
+  }
+  li:before {
+    content: "•";
+    position: absolute;
+    left: -20px;
+    top: 2.75em; /* Aligns bullet with paper title */
+  }
+</style>
+
 {% assign publications_by_year = site.publications | group_by_exp:"item", "item.date | date: '%Y'" | sort: "name" | reverse %}
 
 {% for year in publications_by_year %}
@@ -26,8 +42,7 @@ author_profile: true
       {% endif %}
       <br>
       <a href="{{ publication.permalink }}">{{ publication.title }}</a><br>
-      {{ publication.venue }}<br>
-      <span class="paper">Paper</span>
+      {{ publication.venue }}
     </li>
   {% endfor %}
   </ul>
