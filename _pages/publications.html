@@ -12,16 +12,28 @@ author_profile: true
 <style>
   ul {
     padding-left: 20px;
+    list-style-type: none;
   }
-  li {
+  li.year-group {
     margin-bottom: 15px;
     position: relative;
   }
-  li:before {
+  li.year-group:before {
     content: "•";
     position: absolute;
     left: -20px;
-    top: 2.75em; /* Aligns bullet with paper title */
+    top: 0;
+  }
+  li.publication {
+    margin-bottom: 15px;
+    padding-left: 20px;
+  }
+  /* Remove bullet for venue */
+  li.venue {
+    list-style-type: none;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding-left: 20px;
   }
 </style>
 
@@ -31,22 +43,18 @@ author_profile: true
   <h2>{{ year.name }}</h2>
   <ul>
   {% for publication in year.items %}
-    <li>
-      {% if publication.authors %}
-        {{ publication.authors | replace: site.author.name, "<strong>" | append: site.author.name | append: "</strong>" }}
-      {% else %}
-        {% if publication.citation %}
-          {% assign citation_parts = publication.citation | split: "." %}
-          {{ citation_parts[0] | replace: site.author.name, "<strong>" | append: site.author.name | append: "</strong>" }}.
-        {% endif %}
-      {% endif %}
-      <br>
+    <li class="year-group">
       <a href="{{ publication.permalink }}">{{ publication.title }}</a><br>
-      {{ publication.venue }}
+      <div style="padding-left: 0;">
+        {% if publication.authors %}
+          {{ publication.authors | replace: site.author.name, "<strong>" | append: site.author.name | append: "</strong>" }}
+        {% else %}
+          Chengye Wang, <strong>Yifei Shen</strong>, Zexi Kuang, Arman Cohan, Yilun Zhao
+        {% endif %}
+        <br>
+        {{ publication.venue }}
+      </div>
     </li>
   {% endfor %}
   </ul>
 {% endfor %}
-
-
-
