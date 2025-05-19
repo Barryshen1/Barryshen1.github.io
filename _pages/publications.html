@@ -5,32 +5,33 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
+<div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+
+{% assign publications_by_year = site.publications | group_by_exp:"item", "item.date | date: '%Y'" | sort: "name" | reverse %}
+
+{% for year in publications_by_year %}
+  <h2>{{ year.name }}</h2>
+  <ul>
+  {% for publication in year.items %}
+    <li>
+      {% if publication.authors %}
+        {{ publication.authors | replace: site.author.name, "<strong>" | append: site.author.name | append: "</strong>" }}
+      {% else %}
+        {% if publication.citation %}
+          {% assign citation_parts = publication.citation | split: "." %}
+          {{ citation_parts[0] | replace: site.author.name, "<strong>" | append: site.author.name | append: "</strong>" }}.
+        {% endif %}
       {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+      <br>
+      <a href="{{ publication.permalink }}">{{ publication.title }}</a><br>
+      {{ publication.venue }}<br>
+      <span class="paper">Paper</span>
+    </li>
   {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  </ul>
+{% endfor %}
 
 
 
