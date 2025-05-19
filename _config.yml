@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Yifei Shen / Barry Shen"
+title                    : "Yifei Shen"
 title_separator          : "-"
 name                     : &name "Yifei Shen"
 description              : &description "Graduate student at University of Washington in Electrical and Computer Engineering"
@@ -23,18 +23,17 @@ repository               : "barryshen1/barryshen1.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Yifei Shen (Barry, 沈逸飞)"
+  name             : "Yifei Shen"
   pronouns         : # example: "she/her"  
-  bio              : "First-year master's student in Electrical and Computer Engineering"
+  bio              : "Graduate student in Electrical and Computer Engineering"
   location         : "Seattle, WA"
   employer         : "University of Washington"
-  uri              : "https://barryshen1.github.io" 
   email            : "yifeis02@uw.edu" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : # URL 
+  googlescholar    : "https://scholar.google.com" # URL 
   impactstory      : # URL
   orcid            : # URL
   semantic         : # URL
