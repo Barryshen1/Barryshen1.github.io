@@ -15,6 +15,6 @@ I'm broadly interested in:
 * LLM Agents
 * AI4Research
 
-I'm currently working as a remote intern at the [Yale NLP Lab](https://nlp.cs.yale.edu/). I'm also working as a Research Intern on a collaborative project between the University of Washington and [Lenovo Research](https://research.lenovo.com/webapp/view_English/index.html), advised by Prof. [Radha Poovendran](https://people.ece.uw.edu/radha/) and Dr. [Yan Li](http://www.linkedin.com/in/liyancas).
+I'm currently working as a remote intern at the [Yale NLP Lab](https://nlp.cs.yale.edu/). Previously, I worked as a Research Intern on a collaborative project between the University of Washington and [Lenovo Research](https://research.lenovo.com/webapp/view_English/index.html), advised by Prof. [Radha Poovendran](https://people.ece.uw.edu/radha/) and Dr. [Yan Li](http://www.linkedin.com/in/liyancas).
 
 I'm seeking research intern positions in large language models and PhD opportunities for Fall 2026.
