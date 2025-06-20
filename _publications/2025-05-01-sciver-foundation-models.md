@@ -7,5 +7,5 @@ venue: 'ACL 2025 Main'
 ---
 
 Chengye Wang, **Yifei Shen**, Zexi Kuang, Arman Cohan, Yilun Zhao  
-[SciVer: Evaluating Foundation Models for Multimodal Scientific Claim Verification](/publication/2025-05-01-sciver-foundation-models)  
+[SciVer: Evaluating Foundation Models for Multimodal Scientific Claim Verification](https://arxiv.org/pdf/2506.15569)  
 ACL 2025
