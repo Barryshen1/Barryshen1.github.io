@@ -31,7 +31,7 @@ I'm seeking research intern positions in large language models and PhD opportuni
 ### 2025
 
 - Experience Retrieval-Augmentation with Electronic Health Records Enables Accurate Discharge QA  
-  Justice Ou*, Tinglin Huang*, Yilun Zhao, Ziyang Yu, Peiqing Lu, **Yifei Shen**, Rex Ying  
+  Justice Ou∗, Tinglin Huang∗, Yilun Zhao, Ziyang Yu, Peiqing Lu, **Yifei Shen**, Rex Ying  
   Under Review, 2025
 - Jupyter Notebook As a Natural Multi-agent Multi-human Playground: A Generalizable Design for Collaborative Intelligence  
   Tianwei Zhao, Bingyang Wang, Jiarong Li, **Yifei Shen**, Mo Yang, Xander Wu, Yijiang Li  
