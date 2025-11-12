@@ -22,9 +22,9 @@ I'm seeking research intern positions in large language models and PhD opportuni
 
 ## News
 
+- **06/2025**: Our work Jupyter Notebook As a Natural Multi-agent Multi-human Playground: A Generalizable Design for Collaborative Intelligence has been accepted to ICCV 2025 Workshop MMRAgI!
 - **05/2025**: Our work [SciVer: Evaluating Foundation Models for Multimodal Scientific Claim Verification](https://arxiv.org/pdf/2506.15569) has been accepted to ACL 2025!
 - **05/2025**: Our team won **2nd Place** at [ENGINE 2025 Showcase](https://www.ece.uw.edu/news-events/capstone-fair/) for our project [Efficient Inference of Large Language Models on Single GPU](https://www.ece.uw.edu/wp-content/uploads/2025/06/Lenovo-Efficient-Inference-of-Large-Language-Models-on-a-Single-GPU.pdf), sponsored by Lenovo Research!
-- **06/2025**: Our work Jupyter Notebook As a Natural Multi-agent Multi-human Playground: A Generalizable Design for Collaborative Intelligence has been accepted to ICCV 2025 Workshop MMRAgI!
 
 ## Publications
 
