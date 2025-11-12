@@ -46,10 +46,13 @@ author_profile: true
     <li class="year-group">
       <a href="{{ publication.permalink }}">{{ publication.title }}</a><br>
       <div style="padding-left: 0;">
-        {% if publication.authors %}
-          {{ publication.authors | replace: site.author.name, "<strong>" | append: site.author.name | append: "</strong>" }}
+        {% capture highlighted_author %}<strong>{{ site.author.name }}</strong>{% endcapture %}
+        {% assign authors_text = publication.authors | default: publication.author %}
+        {% if authors_text %}
+          {% assign authors_highlighted = authors_text | replace: site.author.name, highlighted_author %}
+          {{ authors_highlighted }}
         {% else %}
-          Chengye Wang, <strong>Yifei Shen</strong>, Zexi Kuang, Arman Cohan, Yilun Zhao
+          {{ highlighted_author }}
         {% endif %}
         <br>
         {{ publication.venue }}

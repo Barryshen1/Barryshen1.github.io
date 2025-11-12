@@ -5,6 +5,7 @@ category: conferences
 permalink: /publication/2025-06-01-jupyter-notebook-multi-agent
 date: 2025-06-01
 venue: "ICCV Workshop on Multi-Modal Reasoning for Agentic Intelligence"
+authors: "Tianwei Zhao, Bingyang Wang, Jiarong Li, Yifei Shen, Mo Yang, Xander Wu, Yijiang Li"
 ---
 
 Tianwei Zhao, Bingyang Wang, Jiarong Li, **Yifei Shen**, Mo Yang, Xander Wu, Yijiang Li  
