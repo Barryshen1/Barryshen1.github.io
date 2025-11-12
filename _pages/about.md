@@ -36,3 +36,6 @@ I'm seeking research intern positions in large language models and PhD opportuni
 - Jupyter Notebook As a Natural Multi-agent Multi-human Playground: A Generalizable Design for Collaborative Intelligence  
   Tianwei Zhao, Bingyang Wang, Jiarong Li, **Yifei Shen**, Mo Yang, Xander Wu, Yijiang Li  
   ICCV Workshop on Multi-Modal Reasoning for Agentic Intelligence
+- Experience Retrieval-Augmentation with Electronic Health Records Enables Accurate Discharge QA  
+  Justice Ou*, Tinglin Huang*, Yilun Zhao, Ziyang Yu, Peiqing Lu, **Yifei Shen**, Rex Ying  
+  Under Review, 2025
