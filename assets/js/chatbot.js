@@ -4,11 +4,12 @@
 
   const elements = {
     panel: root.querySelector(".chatbot__panel"),
-    toggle: root.querySelector(".chatbot__toggle"),
+    open: root.querySelector("[data-chatbot-open]"),
+    close: root.querySelector("[data-chatbot-close]"),
     messages: root.querySelector(".chatbot__messages"),
     input: root.querySelector("[data-chatbot-input]"),
     send: root.querySelector("[data-chatbot-send]"),
-    clear: root.querySelector("[data-chatbot-clear]"),
+    reset: root.querySelector("[data-chatbot-reset]"),
     status: root.querySelector("[data-chatbot-status]"),
   };
 
@@ -17,6 +18,9 @@
     title: root.dataset.title || "Chatbot",
     welcome: root.dataset.welcome || "Ask me anything about my work.",
     disclaimer: root.dataset.disclaimer || "",
+    assistantName: root.dataset.assistantName || "Assistant",
+    assistantInitials: root.dataset.assistantInitials || "AI",
+    assistantAvatar: root.dataset.assistantAvatar || "",
     sending: false,
     history: [],
   };
@@ -38,12 +42,48 @@
 
   const appendMessage = (role, content) => {
     if (!elements.messages || !content) return;
-    const bubble = document.createElement("div");
-    const type = role === "user" ? "user" : "assistant";
-    bubble.className = `chatbot__message chatbot__message--${type}`;
-    bubble.textContent = content;
-    bubble.setAttribute("data-role", type);
-    elements.messages.appendChild(bubble);
+
+    const isUser = role === "user";
+    const wrapper = document.createElement("div");
+    wrapper.className = `chatbot__message chatbot__message--${
+      isUser ? "user" : "assistant"
+    }`;
+
+    const avatar = document.createElement("div");
+    avatar.className = "chatbot__message-avatar";
+
+    if (!isUser && state.assistantAvatar) {
+      const img = document.createElement("img");
+      img.src = state.assistantAvatar;
+      img.alt = state.assistantName;
+      avatar.appendChild(img);
+    } else {
+      avatar.textContent = isUser ? "You" : state.assistantInitials;
+    }
+
+    const body = document.createElement("div");
+    body.className = "chatbot__message-body";
+
+    const name = document.createElement("p");
+    name.className = "chatbot__message-name";
+    name.textContent = isUser ? "You" : state.assistantName;
+
+    const text = document.createElement("p");
+    text.className = "chatbot__message-text";
+    text.textContent = content;
+
+    body.appendChild(name);
+    body.appendChild(text);
+
+    if (isUser) {
+      wrapper.appendChild(body);
+      wrapper.appendChild(avatar);
+    } else {
+      wrapper.appendChild(avatar);
+      wrapper.appendChild(body);
+    }
+
+    elements.messages.appendChild(wrapper);
     scrollMessages();
   };
 
@@ -54,16 +94,30 @@
     state.history = [{ role: "assistant", content: state.welcome }];
   };
 
+  const isPanelOpen = () =>
+    Boolean(elements.panel && !elements.panel.hasAttribute("hidden"));
+
+  const openPanel = () => {
+    if (!elements.panel) return;
+    elements.panel.removeAttribute("hidden");
+    elements.open?.setAttribute("aria-expanded", "true");
+    root.classList.add("chatbot--open");
+    if (elements.input && !elements.input.disabled) elements.input.focus();
+  };
+
+  const closePanel = () => {
+    if (!elements.panel) return;
+    elements.panel.setAttribute("hidden", "");
+    elements.open?.setAttribute("aria-expanded", "false");
+    root.classList.remove("chatbot--open");
+  };
+
   const togglePanel = () => {
-    if (!elements.panel || !elements.toggle) return;
-    const willOpen = elements.panel.hasAttribute("hidden");
-    if (willOpen) {
-      elements.panel.removeAttribute("hidden");
-      if (elements.input && !elements.input.disabled) elements.input.focus();
+    if (isPanelOpen()) {
+      closePanel();
     } else {
-      elements.panel.setAttribute("hidden", "");
+      openPanel();
     }
-    elements.toggle.setAttribute("aria-expanded", willOpen ? "true" : "false");
   };
 
   const sendMessage = async () => {
@@ -120,9 +174,10 @@
   };
 
   // Events
-  elements.toggle?.addEventListener("click", togglePanel);
+  elements.open?.addEventListener("click", togglePanel);
+  elements.close?.addEventListener("click", closePanel);
   elements.send?.addEventListener("click", sendMessage);
-  elements.clear?.addEventListener("click", clearConversation);
+  elements.reset?.addEventListener("click", clearConversation);
 
   elements.input?.addEventListener("keydown", (event) => {
     if (event.key === "Enter" && !event.shiftKey) {
