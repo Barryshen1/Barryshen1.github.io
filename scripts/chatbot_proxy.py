@@ -170,6 +170,10 @@ class ChatHandler(BaseHTTPRequestHandler):
             if not reply_text:
                 raise RuntimeError("Model returned an empty response.")
 
+            identity_prefix = "I am Yifei Shen's research assistant."
+            if identity_prefix.lower() not in (reply_text or "").lower():
+                reply_text = f"{identity_prefix} {reply_text}"
+
             self._set_headers(200)
             self.wfile.write(json.dumps({"reply": reply_text}).encode("utf-8"))
         except Exception as exc:  # noqa: BLE001
