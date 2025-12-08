@@ -1,0 +1,53 @@
+{% if site.chatbot.enabled %}
+<div
+  class="chatbot"
+  data-chatbot
+  data-endpoint="{{ site.chatbot.endpoint | strip | escape }}"
+  data-title="{{ site.chatbot.title | escape }}"
+  data-welcome="{{ site.chatbot.welcome | escape }}"
+  data-disclaimer="{{ site.chatbot.disclaimer | escape }}">
+
+  <button class="chatbot__toggle" type="button" aria-expanded="false" aria-controls="chatbot-panel" aria-label="Open research chatbot">
+    <span>Ask</span>
+    <strong>Research Bot</strong>
+  </button>
+
+  <section class="chatbot__panel" id="chatbot-panel" role="dialog" aria-label="{{ site.chatbot.title }}" hidden>
+    <div class="chatbot__header">
+      <div class="chatbot__avatar">AI</div>
+      <div>
+        <p class="chatbot__title">{{ site.chatbot.title }}</p>
+        <p class="chatbot__subtitle">{{ site.chatbot.welcome }}</p>
+      </div>
+    </div>
+
+    <div class="chatbot__body">
+      <div class="chatbot__messages" aria-live="polite"></div>
+
+      <div class="chatbot__controls">
+        <div class="chatbot__status" data-chatbot-status>{{ site.chatbot.disclaimer }}</div>
+
+        <label for="chatbot-input" class="screen-reader-text">Message</label>
+        <textarea
+          id="chatbot-input"
+          class="chatbot__input"
+          rows="3"
+          placeholder="Ask about Yifei's work, publications, or interests..."
+          data-chatbot-input></textarea>
+
+        <div class="chatbot__actions">
+          <div class="chatbot__actions-buttons">
+            <button class="chatbot__btn chatbot__btn--primary" type="button" data-chatbot-send>
+              Send
+            </button>
+            <button class="chatbot__btn" type="button" data-chatbot-clear>
+              Clear
+            </button>
+          </div>
+          <span class="chatbot__pill">Gemini + Vertex AI</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+{% endif %}

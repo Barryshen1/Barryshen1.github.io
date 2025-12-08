@@ -1,3 +1,7 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+{% if site.chatbot.enabled %}
+<script src="{{ base_path }}/assets/js/chatbot.js"></script>
+{% endif %}
+
 {% include analytics.html %}

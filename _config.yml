@@ -149,6 +149,14 @@ analytics:
   google:
     tracking_id          :
 
+# Chatbot (frontend widget + external proxy endpoint)
+chatbot:
+  enabled: true
+  endpoint: "" # e.g., https://your-cloud-run-service-xyz.a.run.app/api/chat
+  title: "Ask Yifei's research bot"
+  welcome: "Get quick answers about my research, teaching, and publications."
+  disclaimer: "Powered by Gemini via Vertex AI - responses may not be perfect."
+
 
 # Reading Files
 include:
