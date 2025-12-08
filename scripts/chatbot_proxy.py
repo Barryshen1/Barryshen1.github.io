@@ -51,12 +51,7 @@ def build_client() -> genai.Client:
 
 
 def convert_messages(messages: List[dict]) -> List[types.Content]:
-    contents: List[types.Content] = [
-        types.Content(
-            role="user",
-            parts=[types.Part(text=PERSONA_PROMPT)],
-        )
-    ]
+    contents: List[types.Content] = []
     for message in messages:
         text = str(
             message.get("content") or message.get("text") or ""
@@ -123,6 +118,10 @@ class ChatHandler(BaseHTTPRequestHandler):
 
             response = ChatHandler.client.models.generate_content(
                 model=MODEL_NAME,
+                system_instruction=types.Content(
+                    role="system",
+                    parts=[types.Part(text=PERSONA_PROMPT)],
+                ),
                 contents=contents,
                 config=types.GenerateContentConfig(
                     temperature=float(os.getenv("CHATBOT_TEMPERATURE", "0.3")),

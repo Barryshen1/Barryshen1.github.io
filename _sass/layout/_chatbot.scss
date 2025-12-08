@@ -276,22 +276,11 @@ html[data-theme="dark"] {
 .chatbot__message {
   display: flex;
   align-items: flex-start;
-  gap: 0.55rem;
   max-width: 92%;
 }
 
 .chatbot__message-avatar {
-  width: 36px;
-  height: 36px;
-  flex: 0 0 36px;
-  border-radius: 10px;
-  background: var(--chat-surface-alt);
-  border: 1px solid var(--chat-border);
-  display: grid;
-  place-items: center;
-  color: var(--chat-text);
-  font-weight: 700;
-  overflow: hidden;
+  display: none;
 }
 
 .chatbot__message-avatar img {

@@ -49,18 +49,6 @@
       isUser ? "user" : "assistant"
     }`;
 
-    const avatar = document.createElement("div");
-    avatar.className = "chatbot__message-avatar";
-
-    if (!isUser && state.assistantAvatar) {
-      const img = document.createElement("img");
-      img.src = state.assistantAvatar;
-      img.alt = state.assistantName;
-      avatar.appendChild(img);
-    } else {
-      avatar.textContent = isUser ? "You" : state.assistantInitials;
-    }
-
     const body = document.createElement("div");
     body.className = "chatbot__message-body";
 
@@ -74,14 +62,7 @@
 
     body.appendChild(name);
     body.appendChild(text);
-
-    if (isUser) {
-      wrapper.appendChild(body);
-      wrapper.appendChild(avatar);
-    } else {
-      wrapper.appendChild(avatar);
-      wrapper.appendChild(body);
-    }
+    wrapper.appendChild(body);
 
     elements.messages.appendChild(wrapper);
     scrollMessages();
