@@ -123,6 +123,10 @@ class ChatHandler(BaseHTTPRequestHandler):
 
             response = ChatHandler.client.models.generate_content(
                 model=MODEL_NAME,
+                system_instruction=types.Content(
+                    role="system",
+                    parts=[types.Part(text=PERSONA_PROMPT)],
+                ),
                 contents=contents,
                 config=types.GenerateContentConfig(
                     temperature=float(os.getenv("CHATBOT_TEMPERATURE", "0.3")),
