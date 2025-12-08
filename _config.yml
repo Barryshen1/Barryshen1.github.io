@@ -152,7 +152,7 @@ analytics:
 # Chatbot (frontend widget + external proxy endpoint)
 chatbot:
   enabled: true
-  endpoint: "" # e.g., https://your-cloud-run-service-xyz.a.run.app/api/chat
+  endpoint: "https://chatbot-proxy-150875514917.us-central1.run.app/api/chat" # e.g., https://your-cloud-run-service-xyz.a.run.app/api/chat
   title: "Ask Yifei's research bot"
   welcome: "Get quick answers about my research, teaching, and publications."
   disclaimer: "Powered by Gemini via Vertex AI - responses may not be perfect."

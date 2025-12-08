@@ -1,0 +1,11 @@
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - -t
+      - gcr.io/$PROJECT_ID/chatbot-proxy:latest
+      - -f
+      - Dockerfile.chatbot
+      - .
+images:
+  - gcr.io/$PROJECT_ID/chatbot-proxy:latest
