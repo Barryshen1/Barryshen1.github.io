@@ -64,6 +64,9 @@ The site includes a floating chatbot widget that expects a backend proxy to keep
 1. Start the proxy: `python scripts/chatbot_proxy.py --host 0.0.0.0 --port 8080`.
 1. Point `_config.yml -> chatbot.endpoint` to `http://localhost:8080/api/chat` for local testing or to your deployed HTTPS endpoint (Cloud Run, Render, Fly, etc.) for production.
 
+### Persona prompt
+- The proxy injects a Yifei Shen persona prompt by default. Override with `export CHATBOT_SYSTEM_PROMPT="your prompt"` before starting the proxy.
+
 ## Using Docker
 
 Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.

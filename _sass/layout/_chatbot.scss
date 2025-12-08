@@ -130,6 +130,7 @@ html[data-theme="dark"] {
 .chatbot__panel {
   width: min(420px, calc(100vw - 2rem));
   max-height: min(80vh, 720px);
+  height: min(640px, 80vh);
   background: var(--chat-surface);
   border: 1px solid var(--chat-border);
   border-radius: 18px;
@@ -244,6 +245,8 @@ html[data-theme="dark"] {
   gap: 0.75rem;
   padding: 0.85rem 1rem 1rem;
   height: 100%;
+  flex: 1;
+  overflow: auto;
 }
 
 .chatbot__messages {

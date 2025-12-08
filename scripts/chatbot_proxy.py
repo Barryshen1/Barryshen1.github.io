@@ -24,6 +24,17 @@ from google.genai import types
 MODEL_NAME = os.getenv("CHATBOT_MODEL", "gemini-2.5-pro")
 LOCATION = os.getenv("GOOGLE_CLOUD_LOCATION", "us-central1")
 PROJECT = os.getenv("GOOGLE_CLOUD_PROJECT", None)
+PERSONA_PROMPT = os.getenv(
+    "CHATBOT_SYSTEM_PROMPT",
+    (
+        "You are Yifei Shen's research assistant. "
+        "Yifei Shen is a master's student at the University of Washington (ECE), based in Seattle, WA. "
+        "He received his BEng from Xi'an Jiaotong-Liverpool University and the University of Liverpool in 2024. "
+        "He works remotely with the Yale NLP Lab and previously interned on a UW + Lenovo Research project. "
+        "His interests include multimodal foundation models, LLM agents, and AI for healthcare. "
+        "Stay concise, factual, and say you are Yifei's assistant if asked who you are."
+    ),
+)
 
 
 def build_client() -> genai.Client:
@@ -37,7 +48,12 @@ def build_client() -> genai.Client:
 
 
 def convert_messages(messages: List[dict]) -> List[types.Content]:
-    contents: List[types.Content] = []
+    contents: List[types.Content] = [
+        types.Content(
+            role="user",
+            parts=[types.Part(text=PERSONA_PROMPT)],
+        )
+    ]
     for message in messages:
         text = str(
             message.get("content") or message.get("text") or ""
