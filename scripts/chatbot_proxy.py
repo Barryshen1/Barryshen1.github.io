@@ -48,7 +48,7 @@ def convert_messages(messages: List[dict]) -> List[types.Content]:
         contents.append(
             types.Content(
                 role=role,
-                parts=[types.Part.from_text(text)],
+                parts=[types.Part(text=text)],
             )
         )
     return contents
