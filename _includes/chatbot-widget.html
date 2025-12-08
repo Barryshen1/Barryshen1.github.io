@@ -56,9 +56,11 @@
       </div>
     </header>
 
-    <div class="chatbot__banner" aria-live="polite">
-      {{ site.chatbot.disclaimer }}
-    </div>
+    {% if site.chatbot.disclaimer %}
+      <div class="chatbot__banner" aria-live="polite">
+        {{ site.chatbot.disclaimer }}
+      </div>
+    {% endif %}
 
     <div class="chatbot__body">
       <div class="chatbot__messages" aria-live="polite"></div>
