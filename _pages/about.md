@@ -14,8 +14,6 @@ I'm currently working as a remote intern at the [Yale NLP Lab](https://nlp.cs.ya
 
 I'm seeking research intern positions in large language models and PhD opportunities for Fall 2026.
 
-> New: Open the "Research Bot" bubble in the bottom-right corner to ask questions about my work or publications. Powered by Gemini via Vertex AI; responses may not be perfect.
-
 ## Research Interests
 
 - (Multimodal) Foundation Models

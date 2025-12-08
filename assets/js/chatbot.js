@@ -97,6 +97,13 @@
   const isPanelOpen = () =>
     Boolean(elements.panel && !elements.panel.hasAttribute("hidden"));
 
+  const ensureClosed = () => {
+    if (!elements.panel) return;
+    elements.panel.setAttribute("hidden", "");
+    root.classList.remove("chatbot--open");
+    elements.open?.setAttribute("aria-expanded", "false");
+  };
+
   const openPanel = () => {
     if (!elements.panel) return;
     elements.panel.removeAttribute("hidden");
@@ -188,10 +195,11 @@
 
   // Init
   addWelcome();
+  ensureClosed();
   if (!state.endpoint) {
     disableInput(true);
     setStatus(
-      "Add your deployed proxy URL to `_config.yml` -> `chatbot.endpoint` to enable chat."
+      "Chat is offline until a backend endpoint is configured."
     );
   } else {
     setStatus(state.disclaimer || "Ready");

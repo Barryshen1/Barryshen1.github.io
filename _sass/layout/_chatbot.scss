@@ -139,6 +139,10 @@ html[data-theme="dark"] {
   flex-direction: column;
 }
 
+.chatbot__panel[hidden] {
+  display: none !important;
+}
+
 .chatbot__header {
   display: flex;
   justify-content: space-between;
