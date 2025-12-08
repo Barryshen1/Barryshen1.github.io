@@ -38,32 +38,25 @@
     <span class="chatbot__peek-indicator">Chat</span>
   </button>
 
-  <section class="chatbot__panel" id="chatbot-panel" role="dialog" aria-label="{{ assistant_title }}" hidden>
-    <header class="chatbot__header">
-      <div class="chatbot__header-main">
-        <div class="chatbot__avatar" aria-hidden="true">
-          <img src="{{ assistant_avatar }}" alt="" loading="lazy" />
-          <span>{{ assistant_initial }}</span>
+    <section class="chatbot__panel" id="chatbot-panel" role="dialog" aria-label="{{ assistant_title }}" hidden>
+      <header class="chatbot__header">
+        <div class="chatbot__header-main">
+          <div class="chatbot__avatar" aria-hidden="true">
+            <img src="{{ assistant_avatar }}" alt="" loading="lazy" />
+            <span>{{ assistant_initial }}</span>
+          </div>
+          <div>
+            <p class="chatbot__title">{{ assistant_title }}</p>
+          </div>
         </div>
-        <div>
-          <p class="chatbot__title">{{ assistant_title }}</p>
-          <p class="chatbot__subtitle">{{ site.chatbot.welcome }}</p>
+        <div class="chatbot__header-actions">
+          <span class="chatbot__status-dot" aria-hidden="true"></span>
+          <button class="chatbot__icon-btn" type="button" data-chatbot-close aria-label="Close chat">x</button>
         </div>
-      </div>
-      <div class="chatbot__header-actions">
-        <span class="chatbot__status-dot" aria-hidden="true"></span>
-        <button class="chatbot__icon-btn" type="button" data-chatbot-close aria-label="Close chat">x</button>
-      </div>
-    </header>
+      </header>
 
-    {% if site.chatbot.disclaimer %}
-      <div class="chatbot__banner" aria-live="polite">
-        {{ site.chatbot.disclaimer }}
-      </div>
-    {% endif %}
-
-    <div class="chatbot__body">
-      <div class="chatbot__messages" aria-live="polite"></div>
+      <div class="chatbot__body">
+        <div class="chatbot__messages" aria-live="polite"></div>
 
       <div class="chatbot__footer">
         <label for="chatbot-input" class="screen-reader-text">Message</label>

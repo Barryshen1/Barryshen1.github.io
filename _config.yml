@@ -154,8 +154,8 @@ chatbot:
   enabled: true
   endpoint: "https://chatbot-proxy-zujeqbn3ua-uc.a.run.app/api/chat" # e.g., https://your-cloud-run-service-xyz.a.run.app/api/chat
   title: "Ask Yifei's research bot"
-  welcome: "Hi there! How can I help you?"
-  disclaimer: "Powered by Gemini via Vertex AI - responses may not be perfect."
+  welcome: ""
+  disclaimer: ""
 
 
 # Reading Files

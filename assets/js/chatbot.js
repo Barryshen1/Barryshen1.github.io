@@ -16,7 +16,7 @@
   const state = {
     endpoint: (root.dataset.endpoint || "").trim(),
     title: root.dataset.title || "Chatbot",
-    welcome: root.dataset.welcome || "Ask me anything about my work.",
+    welcome: root.dataset.welcome || "",
     disclaimer: root.dataset.disclaimer || "",
     assistantName: root.dataset.assistantName || "Assistant",
     assistantInitials: root.dataset.assistantInitials || "AI",
@@ -90,8 +90,12 @@
   const addWelcome = () => {
     if (!elements.messages) return;
     elements.messages.innerHTML = "";
-    appendMessage("assistant", state.welcome);
-    state.history = [{ role: "assistant", content: state.welcome }];
+    if (state.welcome) {
+      appendMessage("assistant", state.welcome);
+      state.history = [{ role: "assistant", content: state.welcome }];
+    } else {
+      state.history = [];
+    }
   };
 
   const isPanelOpen = () =>
