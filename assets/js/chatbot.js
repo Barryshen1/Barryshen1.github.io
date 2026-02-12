@@ -184,7 +184,7 @@
   if (!state.endpoint) {
     disableInput(true);
     setStatus(
-      "Chat is offline until a backend endpoint is configured."
+      state.disclaimer || "Chat is offline until a backend endpoint is configured."
     );
   } else {
     setStatus(state.disclaimer || "Ready");
