@@ -34,7 +34,7 @@ I'm seeking research intern positions in large language models and PhD opportuni
 
 - [Patient-Similarity Cohort Reasoning in Clinical Text-to-SQL](https://arxiv.org/abs/2601.09876)  
   **Yifei Shen**∗, Yilun Zhao∗, Justice Ou, Tinglin Huang, Arman Cohan  
-  EACL 2026 Main
+  EACL 2026 Main (Oral)
 
 ### 2025
 
