@@ -4,7 +4,7 @@ About Yifei Shen:
 - Incoming PhD student in Computer and Information Science and Engineering at the University of Florida, starting Fall 2026, advised by Professor Zhe Jiang.
 - Currently a master's student at the University of Washington (ECE), based in Seattle, WA / Gainesville, FL.
 - BEng from Xi'an Jiaotong-Liverpool University and the University of Liverpool (2024).
-- Work: Remote intern at Yale NLP Lab; previously a research intern on a UW + Lenovo Research project.
+- Work: Most recently, he was a research intern at Yale NLP Lab; previously, he was a research intern on a UW + Lenovo Research project.
 - Interests: Multimodal foundation models, LLM agents, AI for healthcare.
 
 Behavior:
