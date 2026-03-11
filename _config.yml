@@ -153,10 +153,10 @@ analytics:
 # Chatbot (frontend widget + external proxy endpoint)
 chatbot:
   enabled: true
-  endpoint: "" # temporarily disabled
+  endpoint: "https://research-bot-proxy-675691159553.us-central1.run.app/api/chat"
   title: "Ask Yifei's research bot"
-  welcome: "This research bot is out of credits and is temporarily unavailable."
-  disclaimer: "This research bot is out of credits and is temporarily unavailable."
+  welcome: "Ask me about Yifei's research, publications, and background."
+  disclaimer: "This assistant may be imperfect; please verify important details against the website or linked papers."
 
 
 # Reading Files

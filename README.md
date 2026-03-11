@@ -58,9 +58,10 @@ If you are running on Linux it may be necessary to install some additional depen
 
 The site includes a floating chatbot widget that expects a backend proxy to keep your API key secret. To run the provided proxy locally:
 
-1. Install the SDK: `pip install --upgrade google-genai`.
-1. Export your key: `export GOOGLE_CLOUD_API_KEY="your_api_key"`. (When using an API key, the proxy will ignore project/location to avoid client errors.)
-1. If you prefer ADC/service accounts instead of an API key, set `GOOGLE_CLOUD_PROJECT` and `GOOGLE_CLOUD_LOCATION` (for example `us-central1`) and remove the API key.
+1. Install the SDK: `pip install --upgrade google-genai python-dotenv`.
+1. For local setup, copy `.env.example` to `.env` and fill in `GOOGLE_API_KEY`, `GOOGLE_CLOUD_PROJECT`, and `GOOGLE_CLOUD_LOCATION`. The proxy will auto-load `.env` if present.
+1. If you prefer exported env vars, set `GOOGLE_API_KEY="your_api_key"` (or `GOOGLE_CLOUD_API_KEY` for backward compatibility). When an API key is present, the proxy will use direct API-key auth.
+1. If you prefer ADC/service accounts instead of an API key, remove the API key and set `GOOGLE_CLOUD_PROJECT` and `GOOGLE_CLOUD_LOCATION` (for example `us-central1`).
 1. Start the proxy: `python scripts/chatbot_proxy.py --host 0.0.0.0 --port 8080`.
 1. Point `_config.yml -> chatbot.endpoint` to `http://localhost:8080/api/chat` for local testing or to your deployed HTTPS endpoint (Cloud Run, Render, Fly, etc.) for production.
 

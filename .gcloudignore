@@ -1,0 +1,12 @@
+.git
+.gitignore
+.gcloudignore
+_site
+.sass-cache
+.bundle
+vendor
+node_modules
+local
+.env
+__pycache__/
+scripts/__pycache__/

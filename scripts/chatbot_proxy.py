@@ -15,11 +15,32 @@ import argparse
 import json
 import os
 from http.server import BaseHTTPRequestHandler, HTTPServer
+from pathlib import Path
 from typing import List
 
 from google import genai
 from google.genai import types
 
+
+def load_local_env() -> None:
+    env_path = Path(__file__).resolve().parent.parent / ".env"
+    if not env_path.exists():
+        return
+
+    try:
+        from dotenv import load_dotenv
+    except ImportError:
+        for raw_line in env_path.read_text(encoding="utf-8").splitlines():
+            line = raw_line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            key, value = line.split("=", 1)
+            os.environ.setdefault(key.strip(), value.strip().strip("\"'"))
+    else:
+        load_dotenv(env_path, override=False)
+
+
+load_local_env()
 
 MODEL_NAME = os.getenv("CHATBOT_MODEL", "gemini-2.5-pro")
 LOCATION = os.getenv("GOOGLE_CLOUD_LOCATION", "us-central1")
@@ -42,13 +63,20 @@ PERSONA_PROMPT = os.getenv(
 
 
 def build_client() -> genai.Client:
-    api_key = os.environ.get("GOOGLE_CLOUD_API_KEY")
-    # Prefer ADC/service account when a project is set; otherwise fall back to API key.
+    api_key = (
+        os.environ.get("GOOGLE_API_KEY")
+        or os.environ.get("GEMINI_API_KEY")
+        or os.environ.get("GOOGLE_CLOUD_API_KEY")
+    )
+    # Prefer direct API key auth when present; otherwise fall back to Vertex AI.
+    if api_key:
+        return genai.Client(api_key=api_key)
     if PROJECT:
         return genai.Client(vertexai=True, project=PROJECT, location=LOCATION)
-    if api_key:
-        return genai.Client(vertexai=True, api_key=api_key, location=LOCATION)
-    return genai.Client(vertexai=True, location=LOCATION)
+    raise RuntimeError(
+        "Missing Google AI credentials. Set GOOGLE_API_KEY (or GOOGLE_CLOUD_API_KEY), "
+        "or set GOOGLE_CLOUD_PROJECT with ADC/service-account auth."
+    )
 
 
 def convert_messages(messages: List[dict]) -> List[types.Content]:
