@@ -5,12 +5,12 @@
   "background_color": "#0021A5",
   "icons": [
     {
-      "src": "/images/favicon-192x192.png",
+      "src": "/images/favicon-192x192.png?v=uf-20260311",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/images/favicon-512x512.png",
+      "src": "/images/favicon-512x512.png?v=uf-20260311",
       "sizes": "512x512",
       "type": "image/png"
     }
