@@ -16,7 +16,7 @@ Most recently, I was a research intern at the [Yale NLP Lab](https://nlp.cs.yale
 
 - (Multimodal) Foundation Models
 - LLM Agents  
-- AI for Healthcare
+- AI4Research
 
 ## News
 
