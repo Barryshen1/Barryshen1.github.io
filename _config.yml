@@ -24,8 +24,9 @@ author:
   avatar           : "profile.png"
   name             : "Yifei Shen"
   pronouns         : # example: "she/her"  
-  location         : "Seattle, WA"
-  employer         : "University of Washington"
+  bio              : "Incoming PhD student in Computer & Information Science & Engineering"
+  location         : "Seattle, WA / Gainesville, FL"
+  employer         : "University of Florida"
   email            : "yifeis02@uw.edu" 
 
   # Academic websites
