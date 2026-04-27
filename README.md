@@ -54,20 +54,6 @@ When you are initially working on your website, it is very useful to be able to 
 
 If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
 
-## Chatbot proxy (Vertex AI)
-
-The site includes a floating chatbot widget that expects a backend proxy to keep your API key secret. To run the provided proxy locally:
-
-1. Install the SDK: `pip install --upgrade google-genai python-dotenv`.
-1. For local setup, copy `.env.example` to `.env` and fill in `GOOGLE_API_KEY`, `GOOGLE_CLOUD_PROJECT`, and `GOOGLE_CLOUD_LOCATION`. The proxy will auto-load `.env` if present.
-1. If you prefer exported env vars, set `GOOGLE_API_KEY="your_api_key"` (or `GOOGLE_CLOUD_API_KEY` for backward compatibility). When an API key is present, the proxy will use direct API-key auth.
-1. If you prefer ADC/service accounts instead of an API key, remove the API key and set `GOOGLE_CLOUD_PROJECT` and `GOOGLE_CLOUD_LOCATION` (for example `us-central1`).
-1. Start the proxy: `python scripts/chatbot_proxy.py --host 0.0.0.0 --port 8080`.
-1. Point `_config.yml -> chatbot.endpoint` to `http://localhost:8080/api/chat` for local testing or to your deployed HTTPS endpoint (Cloud Run, Render, Fly, etc.) for production.
-
-### Persona prompt
-- The proxy injects a Yifei Shen persona prompt by default. Override with `export CHATBOT_SYSTEM_PROMPT="your prompt"` before starting the proxy.
-
 ## Using Docker
 
 Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.

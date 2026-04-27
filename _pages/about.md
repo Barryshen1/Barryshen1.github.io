@@ -12,9 +12,9 @@ Hi! I'm an incoming PhD student in the Department of [Computer & Information Sci
 
 ## Research Interests
 
-- (Multimodal) Foundation Models
+- Multimodal Foundation Models
 - LLM Agents  
-- AI4Research
+- AI4S
 
 ## News
 
