@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm an incoming PhD student in the Department of [Computer & Information Science & Engineering](https://www.cise.ufl.edu/) at the [University of Florida](https://www.ufl.edu/), starting in Fall 2026, where I will be advised by Prof. [Zhe Jiang](https://www.jiangteam.org/). Before that, I received my MSEE from the [Department of Electrical and Computer Engineering](https://www.ece.uw.edu/) at the [University of Washington](https://www.washington.edu/), and my BEng from [Xi'an Jiaotong-Liverpool University](https://www.xjtlu.edu.cn/en/study/departments/school-of-advanced-technology) and the [University of Liverpool](https://www.liverpool.ac.uk/engineering/). I'm working on research in LLMs. If you're interested in my research, feel free to reach out!
+Hi! I'm an incoming PhD student in the Department of [Computer & Information Science & Engineering](https://www.cise.ufl.edu/) at the [University of Florida](https://www.ufl.edu/), starting in Fall 2026, where I will be advised by Prof. [Zhe Jiang](https://www.jiangteam.org/). Before that, I received my master's degree from the [University of Washington](https://www.washington.edu/) and my bachelor's degree from the [University of Liverpool](https://www.liverpool.ac.uk/engineering/). I'm interested in LLM for Science and AI Agents. If you're interested in my research, feel free to reach out!
 
 ## Research Interests
 
