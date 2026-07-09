@@ -18,6 +18,7 @@ Hi! I'm an incoming CS PhD student at the [University of Florida](https://cise.u
 
 ## News
 
+- **07/2026**: Our work [Experience Retrieval-Augmentation with Electronic Health Records Enables Accurate Discharge QA](https://aclanthology.org/2026.acl-long.1073/) has been accepted to ACL 2026 Main!
 - **03/2026**: I will join the University of Florida CISE department as a PhD student in Fall 2026, advised by Prof. [Zhe Jiang](https://www.jiangteam.org/).
 - **02/2026**: Our work [Patient-Similarity Cohort Reasoning in Clinical Text-to-SQL](https://arxiv.org/abs/2601.09876) has been selected for an Oral presentation at EACL 2026 Main!
 - **01/2026**: Our work [Patient-Similarity Cohort Reasoning in Clinical Text-to-SQL](https://arxiv.org/abs/2601.09876) has been accepted to EACL 2026 Main!
