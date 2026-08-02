@@ -1,0 +1,64 @@
+---
+layout: compress
+---
+{% include base_path %}
+<!doctype html>
+<html lang="{{ site.locale | default: 'en-US' | slice: 0, 2 }}">
+  <head>
+    {% include home-head.html %}
+  </head>
+  <body>
+    <div class="container">
+      <p class="backlink"><a href="{{ base_path }}/">&#8592; {{ site.author.name }}</a></p>
+
+      <article class="paper-page">
+        <h1>{{ page.title }}</h1>
+
+        {% assign authors = page.authors | default: page.author %}
+        {% if authors %}
+          {% assign highlighted_name = "<strong>Yifei Shen</strong>" %}
+          <p class="paper__authors">{{ authors | replace: "Yifei Shen", highlighted_name }}</p>
+        {% endif %}
+
+        <p class="paper__venue">{{ page.venue }}</p>
+
+        <p class="paper__links">
+          {% if page.paperurl %}
+            <a href="{{ page.paperurl }}">paper</a>
+          {% endif %}
+          {% if page.codeurl %}
+            <span>/</span> <a href="{{ page.codeurl }}">code</a>
+          {% endif %}
+        </p>
+
+        {% if page.image %}
+          <img
+            class="paper-page__figure"
+            src="{{ page.image | relative_url }}"
+            alt="{{ page.image_alt | default: page.title | escape }}"
+            width="{{ page.image_width }}"
+            height="{{ page.image_height }}">
+        {% endif %}
+
+        <div class="paper-page__body">
+          {% if page.summary %}
+            <p>{{ page.summary }}</p>
+          {% endif %}
+          {{ content }}
+        </div>
+
+        {% if page.citation %}
+          <h2>Citation</h2>
+          <p class="paper-page__citation">{{ page.citation }}</p>
+        {% endif %}
+      </article>
+
+      <footer class="colophon">
+        <p>
+          &copy; {{ site.time | date: "%Y" }} {{ site.author.name }}. Website design borrowed from
+          <a href="https://jonbarron.info/">Jon Barron</a>.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

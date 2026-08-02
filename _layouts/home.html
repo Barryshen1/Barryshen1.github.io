@@ -1,0 +1,80 @@
+---
+layout: compress
+---
+{% include base_path %}
+<!doctype html>
+<html lang="{{ site.locale | default: 'en-US' | slice: 0, 2 }}">
+  <head>
+    {% include home-head.html %}
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="container" id="main">
+      <header class="profile">
+        <div class="profile__text">
+          <h1 class="name">{{ site.author.name }}</h1>
+
+          <div class="profile__bio">
+            {{ content }}
+          </div>
+
+          <p class="profile__links">
+            {% if site.author.email %}<a href="mailto:{{ site.author.email }}">Email</a>{% endif %}
+            {% if site.author.googlescholar %}<span>/</span> <a href="{{ site.author.googlescholar }}">Scholar</a>{% endif %}
+            {% if site.author.github %}<span>/</span> <a href="https://github.com/{{ site.author.github }}">Github</a>{% endif %}
+            {% if site.author.linkedin %}<span>/</span> <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>{% endif %}
+            {% if site.author.twitter %}<span>/</span> <a href="https://x.com/{{ site.author.twitter }}">X</a>{% endif %}
+          </p>
+        </div>
+
+        <div class="profile__photo">
+          <img
+            src="{{ base_path }}/images/{{ site.author.avatar }}"
+            alt="{{ page.profile_alt | default: site.author.name }}"
+            width="800"
+            height="800"
+            fetchpriority="high">
+        </div>
+      </header>
+
+      {% if site.data.news %}
+        <section id="news">
+          <h2>News</h2>
+          <ul class="news">
+            {% for item in site.data.news %}
+              <li>
+                <span class="news__date">{{ item.date | date: "%m/%Y" }}</span>:
+                {{ item.text | markdownify | remove: "<p>" | remove: "</p>" | strip }}
+              </li>
+            {% endfor %}
+          </ul>
+        </section>
+      {% endif %}
+
+      <section id="research">
+        <h2>Research</h2>
+        {% if page.research_intro %}
+          <p class="section__intro">
+            {{ page.research_intro | markdownify | remove: "<p>" | remove: "</p>" | strip }}
+            Some papers are <span class="highlight">highlighted</span>.
+          </p>
+        {% endif %}
+
+        <div class="papers">
+          {% assign publications = site.publications | sort: "date" | reverse %}
+          {% for publication in publications %}
+            {% include publication-card.html publication=publication %}
+          {% endfor %}
+        </div>
+      </section>
+
+      <footer class="colophon">
+        <p>
+          &copy; {{ site.time | date: "%Y" }} {{ site.author.name }}. Website design borrowed from
+          <a href="https://jonbarron.info/">Jon Barron</a>.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

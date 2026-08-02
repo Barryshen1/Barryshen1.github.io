@@ -1,0 +1,27 @@
+---
+layout: compress
+---
+{% include base_path %}
+<!doctype html>
+<html lang="{{ site.locale | default: 'en-US' | slice: 0, 2 }}">
+  <head>
+    {% include home-head.html %}
+  </head>
+  <body>
+    <div class="container">
+      <p class="backlink"><a href="{{ base_path }}/">&#8592; {{ site.author.name }}</a></p>
+
+      <section>
+        <h2>{{ page.title }}</h2>
+        {{ content }}
+      </section>
+
+      <footer class="colophon">
+        <p>
+          &copy; {{ site.time | date: "%Y" }} {{ site.author.name }}. Website design borrowed from
+          <a href="https://jonbarron.info/">Jon Barron</a>.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

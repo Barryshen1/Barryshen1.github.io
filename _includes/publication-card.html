@@ -1,0 +1,35 @@
+{% assign publication = include.publication %}
+<div class="paper{% if publication.highlighted %} paper--highlight{% endif %}">
+  <a class="paper__media" href="{{ publication.paperurl }}" tabindex="-1" aria-hidden="true">
+    <img
+      src="{{ publication.image | relative_url }}"
+      alt="{{ publication.image_alt | default: publication.title | escape }}"
+      width="{{ publication.image_width }}"
+      height="{{ publication.image_height }}"
+      loading="lazy"
+      decoding="async">
+  </a>
+
+  <div class="paper__body">
+    <p class="paper__title"><a href="{{ publication.paperurl }}">{{ publication.title }}</a></p>
+
+    {% assign authors = publication.authors | default: publication.author %}
+    {% if authors %}
+      {% assign highlighted_name = "<strong>Yifei Shen</strong>" %}
+      <p class="paper__authors">{{ authors | replace: "Yifei Shen", highlighted_name }}</p>
+    {% endif %}
+
+    <p class="paper__venue">{{ publication.venue }}</p>
+
+    <p class="paper__links">
+      <a href="{{ publication.paperurl }}">paper</a>
+      {% if publication.codeurl %}
+        <span>/</span> <a href="{{ publication.codeurl }}">code</a>
+      {% endif %}
+    </p>
+
+    {% if publication.summary %}
+      <p class="paper__summary">{{ publication.summary }}</p>
+    {% endif %}
+  </div>
+</div>

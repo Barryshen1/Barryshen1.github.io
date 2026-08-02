@@ -1,0 +1,305 @@
+---
+---
+
+/* Visual system follows jonbarron.info: Lato at 14px, a narrow centered
+   column, blue links that turn orange on hover, and pale-yellow highlights. */
+
+body,
+td,
+th,
+tr,
+p,
+a,
+li {
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  color: #000;
+  line-height: normal;
+}
+
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #f09228;
+  text-decoration: none;
+}
+
+a:focus-visible {
+  outline: 2px solid #f09228;
+  outline-offset: 2px;
+}
+
+h2 {
+  margin: 0;
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+}
+
+.skip-link:focus {
+  left: 8px;
+  top: 8px;
+  z-index: 5;
+  padding: 6px 10px;
+  background: #fff;
+  box-shadow: 0 0 0 2px #f09228;
+}
+
+.container {
+  width: 800px;
+  max-width: calc(100% - 40px);
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 20px 0 30px;
+}
+
+.profile__text {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.name {
+  margin: 0 0 14px;
+  padding-top: 20px;
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 1.15;
+  text-align: center;
+}
+
+.profile__bio p {
+  margin: 0 0 10px;
+  line-height: 1.4;
+}
+
+.profile__links {
+  margin: 4px 0 0;
+  text-align: center;
+}
+
+.profile__links a {
+  white-space: nowrap;
+}
+
+.profile__links span {
+  color: #666;
+  padding: 0 2px;
+}
+
+.profile__photo {
+  flex: 0 0 auto;
+}
+
+.profile__photo img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+section {
+  padding-bottom: 30px;
+}
+
+.section__intro {
+  margin: 12px 0 20px;
+}
+
+span.highlight {
+  background-color: #ffffd0;
+}
+
+.news {
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.news li {
+  padding: 4px 0;
+  line-height: 1.4;
+}
+
+.news .news__date {
+  font-weight: 700;
+}
+
+.papers {
+  display: grid;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.year-heading {
+  margin: 24px 0 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.paper {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  gap: 24px;
+  align-items: center;
+  padding: 20px 16px;
+}
+
+.paper--highlight {
+  background-color: #ffffd0;
+}
+
+.paper__media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.paper__title {
+  font-weight: 700;
+}
+
+.paper__title,
+.paper__authors,
+.paper__venue,
+.paper__links,
+.paper__summary {
+  margin: 0;
+  line-height: 1.35;
+}
+
+.paper__venue {
+  font-style: italic;
+}
+
+.paper__links span {
+  color: #666;
+  padding: 0 2px;
+}
+
+.paper__summary {
+  margin-top: 10px;
+}
+
+.backlink {
+  padding-top: 24px;
+}
+
+.paper-page {
+  padding-bottom: 30px;
+}
+
+.paper-page h1 {
+  margin: 0 0 10px;
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 1.3;
+}
+
+.paper-page h2 {
+  margin-top: 24px;
+}
+
+.paper-page__figure {
+  display: block;
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  margin: 20px 0;
+}
+
+.paper-page__body p,
+.paper-page__citation {
+  line-height: 1.5;
+  max-width: 62ch;
+}
+
+.paper-page__citation {
+  color: #333;
+}
+
+.colophon {
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+  color: #666;
+  font-size: 12px;
+  text-align: right;
+}
+
+.colophon p {
+  margin: 0;
+  font-size: 12px;
+}
+
+@media (max-width: 900px) {
+  .profile__photo img {
+    width: 170px;
+    height: 170px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    max-width: calc(100% - 30px);
+  }
+
+  .profile {
+    flex-direction: column-reverse;
+    gap: 16px;
+    padding: 24px 0 30px;
+  }
+
+  .name {
+    padding-top: 0;
+  }
+
+  .profile__photo img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .paper {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 16px 12px;
+  }
+
+  .paper__media img {
+    aspect-ratio: auto;
+    max-width: 320px;
+    height: auto;
+  }
+}
