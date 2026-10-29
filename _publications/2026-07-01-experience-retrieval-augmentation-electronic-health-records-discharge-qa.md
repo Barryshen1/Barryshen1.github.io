@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2026-07-01-experience-retrieval-augmentation-electronic-health-records-discharge-qa
 date: 2026-07-01
 venue: "ACL 2026 Main"
-authors: "Justice Ou, Tinglin Huang, Yilun Zhao, Ziyang Yu, Peiqing Lu, Yifei Shen, Rex Ying"
+authors: "Justice Ou∗†, Tinglin Huang∗, Yilun Zhao, Ziyang Yu, Peiqing Lu, Yifei Shen, Rex Ying"
 paperurl: "https://aclanthology.org/2026.acl-long.1073/"
 codeurl: "https://github.com/jou2024/EXPRAG"
 image: "/images/publications/exprag.webp"

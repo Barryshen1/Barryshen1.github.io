@@ -5,7 +5,7 @@ permalink: /publications/
 ---
 
 <p class="section__intro">
-  Also on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.
+  Also on <a href="{{ site.author.googlescholar }}">Google Scholar</a>. ∗ denotes equal contribution and † denotes the corresponding author.
 </p>
 
 {% assign publications_by_year = site.publications | group_by_exp: "item", "item.date | date: '%Y'" | sort: "name" | reverse %}

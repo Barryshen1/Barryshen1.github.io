@@ -6,7 +6,7 @@ Source for [barryshen1.github.io](https://barryshen1.github.io/), a Jekyll-power
 
 - Homepage biography and research statement: `_pages/about.md`
 - News: `_data/news.yml`
-- Publications: `_publications/` (one file per paper, rendered by `_includes/publication-card.html`)
+- Publications: `_publications/` (one file per paper, rendered by `_includes/publication-card.html`); in `authors`, `∗` marks equal contribution and `†` the corresponding author
 - Profile and publication images: `images/`
 - Site-wide identity and links: `_config.yml`
 

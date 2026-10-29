@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2026-01-01-patient-similarity-cohort-reasoning-clinical-text-to-sql
 date: 2026-01-01
 venue: "EACL 2026 Main (Oral)"
-authors: "Yifei Shen∗, Yilun Zhao∗, Justice Ou, Tinglin Huang, Arman Cohan"
+authors: "Yifei Shen∗, Yilun Zhao∗†, Justice Ou, Tinglin Huang, Arman Cohan"
 paperurl: "https://arxiv.org/abs/2601.09876"
 codeurl: "https://github.com/Barryshen1/ClinSQL"
 image: "/images/publications/clinsql.webp"

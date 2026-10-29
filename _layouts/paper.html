@@ -31,6 +31,10 @@ layout: compress
           {% endif %}
         </p>
 
+        {% if authors contains "∗" or authors contains "†" %}
+          <p class="paper__note">∗ denotes equal contribution and † denotes the corresponding author.</p>
+        {% endif %}
+
         {% if page.image %}
           <img
             class="paper-page__figure"

@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2026-10-01-budget-aware-compression-single-gpu-llm-inference
 date: 2026-10-01
 venue: "GroundLM 2026 (EMNLP 2026 Workshop)"
-authors: "Hongyu Yu, Yifei Shen"
+authors: "Hongyu Yu∗, Yifei Shen∗†"
 paperurl: "https://aclanthology.org/2026.groundlm-1.66/"
 image: "/images/publications/budget-aware-compression.webp"
 image_width: 640
